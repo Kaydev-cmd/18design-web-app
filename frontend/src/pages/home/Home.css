@@ -9,6 +9,10 @@
     margin-bottom: 80px;
 } */
 
+body {
+  background-color: #e2e2e2;
+}
+
 /* Hero */
 
 .hero {
