@@ -1,0 +1,816 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* .about-us,
+.how-it-works,
+.pricing,
+.faqs {
+    margin-bottom: 80px;
+} */
+
+/* Hero */
+
+.hero {
+  margin: 20px 0;
+}
+
+.hero-heading h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 66px;
+}
+
+.hero-wrapper,
+.hero-wrapper-left,
+.hero-icons {
+  display: flex;
+}
+
+.hero-wrapper {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-wrapper-left,
+.hero-icons {
+  gap: 20px;
+}
+
+.hero-wrapper-left {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.hero-form form input,
+.hero-form form button {
+  padding: 12px;
+  border: none;
+}
+
+.hero-form form button {
+  cursor: pointer;
+  background-color: #151515;
+  color: #ffffff;
+  transition: 0.2 ease-in-out;
+}
+
+.hero-form form button:hover {
+  opacity: 0.8;
+}
+
+/* About Us */
+
+.about-us {
+  margin-bottom: 20px;
+}
+
+.about-us-heading h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 66px;
+}
+
+.about-us-wrapper,
+.about-us-wrapper-right,
+.about-us-list ul {
+  display: flex;
+}
+
+.about-us-wrapper-right,
+.about-us-list ul {
+  flex-direction: column;
+}
+
+.about-us-wrapper {
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.about-us-wrapper-right,
+.about-us-list ul {
+  gap: 20px;
+}
+
+.about-us-btn button {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+/* How It Works */
+/* Shared Cloud Libraries */
+/* Developer Handoff */
+/* Real Time Collaborative Editing */
+
+.how-it-works {
+  margin-bottom: 20px;
+}
+
+.how-it-works-wrapper,
+.how-it-works-wrapper-left,
+.shared-cloud-libraries-wrapper,
+.developer-handoff-wrapper,
+.real-time-collaborative-editing-wrapper,
+.cloud-api-wrapper,
+.shared-cloud-libraries-heading-and-description-wrapper,
+.developer-handoff-heading-and-description-wrapper,
+.real-time-collaborative-editing-heading-and-description-wrapper,
+.cloud-api-heading-and-description-wrapper {
+  display: flex;
+}
+
+.how-it-works-wrapper,
+.shared-cloud-libraries-wrapper,
+.developer-handoff-wrapper,
+.real-time-collaborative-editing-wrapper,
+.cloud-api-wrapper {
+  align-items: center;
+}
+
+.how-it-works-wrapper-left,
+.shared-cloud-libraries-wrapper,
+.developer-handoff-wrapper,
+.real-time-collaborative-editing-wrapper,
+.cloud-api-wrapper {
+  gap: 20px;
+}
+
+.how-it-works-wrapper-left,
+.shared-cloud-libraries-heading-and-description-wrapper,
+.developer-handoff-heading-and-description-wrapper,
+.real-time-collaborative-editing-heading-and-description-wrapper,
+.cloud-api-heading-and-description-wrapper {
+  flex-direction: column;
+}
+
+.how-it-works-wrapper {
+  justify-content: space-evenly;
+}
+
+.how-it-works-heading h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 66px;
+}
+
+.shared-cloud-libraries-heading-and-description-wrapper,
+.developer-handoff-heading-and-description-wrapper,
+.real-time-collaborative-editing-heading-and-description-wrapper,
+.cloud-api-heading-and-description-wrapper {
+  gap: 10px;
+}
+
+.how-it-works-btn button {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+/* Pricing */
+
+.pricing {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.pricing-btn {
+  margin-bottom: 14px;
+}
+
+.pricing-wrapper,
+.pricing-cards-wrapper,
+.pricing-card-amount-and-plan-wrapper,
+.pricing-card-wrapper-black-card,
+.pricing-card-wrapper,
+.pricing-card,
+.pricing-card-amount h5,
+.pricing-card-list ul {
+  display: flex;
+}
+
+.pricing-cards-wrapper,
+.pricing-card {
+  justify-content: space-evenly;
+}
+
+.pricing-card,
+.pricing-card-list ul {
+  flex-direction: column;
+}
+
+.pricing-btn button,
+.pricing-card-btn button,
+.pricing-card-wrapper-black-card .pricing-card-btn button {
+  cursor: pointer;
+}
+
+.pricing-card-wrapper-black-card,
+.pricing-card-btn button,
+.pricing-card-wrapper-black-card .pricing-card-btn button {
+  background-color: #000;
+}
+
+.pricing-wrapper {
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.pricing-heading h1 {
+  font-size: 66px;
+}
+
+.pricing-btn button {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px 10px;
+}
+
+.pricing-description p {
+  text-align: right;
+}
+
+/* Pricing Cards */
+
+.pricing-card-amount-and-plan-wrapper {
+  gap: 5px;
+}
+
+.pricing-card-wrapper-black-card .pricing-card-amount h5,
+.pricing-card-wrapper-black-card .pricing-card-plan,
+.pricing-card-wrapper-black-card .pricing-card-description p,
+.pricing-card-wrapper-black-card .pricing-card-list ul {
+  color: #ffffff;
+}
+
+.pricing-card-wrapper-black-card,
+.pricing-card-wrapper {
+  border: 2px solid #000;
+  padding: 50px;
+  height: 500px;
+}
+
+.pricing-card-btn,
+.pricing-card-plan {
+  position: relative;
+}
+
+.pricing-card-btn {
+  top: 60px;
+}
+
+.pricing-card-btn button,
+.pricing-card-wrapper-black-card .pricing-card-btn button {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+}
+
+.pricing-card-btn button:hover {
+  opacity: 0.9;
+}
+
+.pricing-card-wrapper-black-card .pricing-card-btn {
+  top: 48px;
+}
+
+.pricing-card-wrapper.last-card .pricing-card-btn {
+  top: 46px;
+}
+
+.pricing-card-wrapper-black-card .pricing-card-btn button {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.pricing-card-amount h5 span {
+  font-size: 24px;
+}
+
+.pricing-card-amount h5 p {
+  font-size: 80px;
+}
+
+.pricing-card-plan {
+  top: 60px;
+}
+
+.pricing-card-list ul {
+  gap: 12px;
+}
+
+/* FAQs */
+
+.faqs {
+  margin-top: 50px;
+}
+
+.faqs-wrapper,
+.faqs-left-wrapper,
+.faqs-left-dropdown-descriptions,
+.faqs-left-dropdown-description-wrapper,
+.faqs-left-dropdown-description-heading-and-icon {
+  display: flex;
+}
+
+.faqs-left-wrapper,
+.faqs-left-dropdown-descriptions,
+.faqs-left-dropdown-description-wrapper {
+  flex-direction: column;
+}
+
+.faqs-left-wrapper,
+.faqs-left-dropdown-description-heading-and-icon {
+  justify-content: space-between;
+}
+
+.faqs-left-btn button,
+.faqs-left-dropdown-description-heading-and-icon h3 {
+  font-weight: bold;
+}
+
+.faqs-wrapper {
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+
+.faqs-left-wrapper {
+    gap: 10px;
+}
+
+.faqs-left-btn button {
+  text-transform: uppercase;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.faqs-left-dropdown-descriptions {
+  gap: 16px;
+}
+
+.faqs-left-heading h1 {
+  font-size: 66px;
+  font-family: "Roboto", sans-serif;
+}
+
+.faqs-left-dropdown-description-wrapper {
+  gap: 24px;
+}
+
+.faqs-left-dropdown-description-heading-and-icon {
+  align-items: center;
+}
+
+.faqs-left-dropdown-description-heading-and-icon h3 {
+  font-size: 16px;
+}
+
+.faqs-left-dropdown-descriptions hr {
+  height: 4px;
+  background-color: #000;
+}
+
+.faqs-banner img {
+  width: 500px;
+}
+
+/* Responsive */
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  /* Pricing */
+
+  .pricing-heading h1 {
+    font-size: 54px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  /* Hero */
+
+  .hero-heading h1 {
+    font-size: 56px;
+  }
+
+  /* About Us */
+
+  .about-us-heading h1 {
+    font-size: 56px;
+  }
+
+  /* How It Works */
+
+  .how-it-works-heading h1 {
+    font-size: 56px;
+  }
+
+  /* Pricing */
+
+  .pricing-wrapper {
+    gap: 50px;
+  }
+  .pricing-heading h1 {
+    font-size: 48px;
+  }
+  .pricing-banner img {
+    width: 400px;
+  }
+  .pricing-cards-wrapper {
+    gap: 10px;
+  }
+  .pricing-card-amount h5 p {
+    font-size: 70px;
+  }
+  .pricing-card-plan {
+    top: 50px;
+  }
+  .pricing-card-wrapper-black-card .pricing-card-btn {
+    top: 46px;
+  }
+  .pricing-card-description p {
+    font-size: 14px;
+  }
+  .pricing-card-list ul li {
+    font-size: 14px;
+  }
+
+  /* FAQs */
+
+  .faqs-left-heading h1 {
+    font-size: 54px;
+  }
+  .faqs-left-description p,
+  .faqs-left-dropdown-description-text p {
+    font-size: 14px;
+  }
+  .faqs-left-dropdown-description-heading-and-icon h3 {
+    font-size: 16px;
+  }
+  .faqs-banner img {
+    width: 400px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /* Hero */
+
+  .hero-wrapper-left {
+    gap: 15px;
+  }
+
+  .hero-banner img {
+    width: 400px;
+  }
+
+  .hero-heading h1 {
+    font-size: 48px;
+  }
+  .hero-description p {
+    font-size: 14px;
+  }
+
+  /* About Us */
+
+  .about-us-banner img {
+    width: 400px;
+  }
+  .about-us-heading h1 {
+    font-size: 48px;
+  }
+  .about-us-description p {
+    font-size: 14px;
+  }
+  .about-us-list ul li {
+    font-size: 14px;
+  }
+
+  /* How It Works */
+
+  .how-it-works-banner img {
+    width: 300px;
+  }
+  .how-it-works-heading h1 {
+    font-size: 48px;
+  }
+  .shared-cloud-libraries-img img,
+  .developer-handoff-img img,
+  .real-time-collaborative-editing-img img,
+  .cloud-api-img img {
+    width: 70px;
+  }
+  .shared-cloud-libraries-heading h4,
+  .developer-handoff-heading h4,
+  .real-time-collaborative-editing-heading h4,
+  .cloud-api-heading h4 {
+    font-size: 20px;
+  }
+  .shared-cloud-libraries-description p,
+  .developer-handoff-description p,
+  .real-time-collaborative-editing-heading p,
+  .cloud-api-description p {
+    font-size: 14px;
+  }
+
+  /* Pricing */
+
+  .pricing-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pricing-card {
+    align-items: center;
+  }
+  .pricing-heading h1 {
+    font-size: 40px;
+  }
+  .pricing-description p {
+    font-size: 14px;
+  }
+  .pricing-card {
+    width: 300px;
+  }
+  .pricing-banner img {
+    width: 300px;
+  }
+  .pricing-card-btn-wrapper {
+    width: 100%;
+  }
+
+  /* Pricing Cards */
+
+  .pricing-card {
+    width: 200px;
+  }
+  .pricing-cards-wrapper {
+    gap: 20px;
+  }
+
+  /* FAQs */
+
+  .faqs-left-heading h1 {
+    font-size: 38px;
+  }
+  .faqs-left-description p,
+  .faqs-left-dropdown-description-text p {
+    font-size: 12px;
+  }
+  .faqs-left-dropdown-description-heading-and-icon h3 {
+    font-size: 14px;
+  }
+  .faqs-banner img {
+    width: 320px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+
+  /* Hero */
+
+  .hero-banner img {
+    width: 300px;
+  }
+  .hero-heading h1 {
+    font-size: 36px;
+  }
+  .hero-wrapper-left {
+    gap: 10px;
+  }
+
+  /* About Us */
+
+  .about-us-heading h1 {
+    font-size: 36px;
+  }
+  .about-us-banner img {
+    width: 300px;
+  }
+  .about-us-btn button {
+    padding: 6px 10px;
+  }
+
+  /* How It Works */
+
+  .how-it-works-heading h1 {
+    font-size: 36px;
+  }
+  .how-it-works-banner img {
+    width: 300px;
+  }
+  .how-it-works-btn button {
+    padding: 6px 5px;
+  }
+  .shared-cloud-libraries-heading h4,
+  .developer-handoff-heading h4,
+  .real-time-collaborative-editing-heading h4,
+  .cloud-api-heading h4 {
+    font-size: 18px;
+  }
+  .shared-cloud-libraries-description p,
+  .developer-handoff-description p,
+  .real-time-collaborative-editing-heading p,
+  .cloud-api-description p {
+    font-size: 14px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+
+  /* Hero */
+
+  .hero-banner-wrapper {
+    display: none;
+  }
+  .hero-heading h1 {
+    font-size: 54px;
+  }
+  .hero-wrapper-left {
+    align-items: center;
+    gap: 26px;
+  }
+
+  /* About Us */
+
+  .about-us-wrapper {
+    flex-direction: column-reverse;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .about-us-heading h1 {
+    font-size: 54px;
+  }
+
+  /* How It Works */
+
+  .how-it-works-wrapper {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .how-it-works-heading h1 {
+    font-size: 44px;
+  }
+
+  /* Pricing */
+
+  .pricing-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin-bottom: 40px;
+  }
+  .pricing-description p {
+    text-align: center;
+  }
+  .pricing-wrapper-right {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .pricing-card-plan p {
+    position: relative;
+    bottom: 14px;
+  }
+  .pricing-card-amount h5 p {
+    font-size: 52px;
+  }
+
+  /* FAQs */
+
+  .faqs-wrapper {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .faqs-banner img {
+    width: 300px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+
+  /* Hero */
+
+  .hero-heading {
+    text-align: center;
+  }
+
+  .hero-heading h1 {
+    font-size: 28px;
+  }
+  .hero-wrapper-left {
+    align-items: center;
+    gap: 16px;
+  }
+
+  /* About Us */
+
+  .about-us-wrapper-right {
+    align-items: center;
+  }
+  .about-us-heading {
+    text-align: center;
+  }
+  .about-us-heading h1 {
+    font-size: 28px;
+  }
+  .about-us-list ul li {
+    list-style: none;
+  }
+  .about-us-btn button {
+    padding: 4px 5px;
+  }
+
+  /* How It Works */
+
+  .how-it-works-btn button {
+    padding: 5px;
+  }
+  .how-it-works-wrapper-left {
+    align-items: center;
+  }
+  .how-it-works-heading {
+    text-align: center;
+  }
+  .how-it-works-heading h1 {
+    font-size: 28px;
+  }
+  .shared-cloud-libraries-heading h4,
+  .developer-handoff-heading h4,
+  .real-time-collaborative-editing-heading h4,
+  .cloud-api-heading h4 {
+    font-size: 16px;
+  }
+  .shared-cloud-libraries-description p,
+  .developer-handoff-description p,
+  .real-time-collaborative-editing-description p,
+  .cloud-api-description p {
+    font-size: 12px;
+  }
+  /* Pricing */
+
+  .pricing-card {
+    width: 160px;
+  }
+  .pricing-card-amount h5 span {
+    font-size: 14px;
+  }
+  .pricing-card-amount h5 p {
+    font-size: 32px;
+  }
+  .pricing-card-plan p {
+    right: 4px;
+    bottom: 32px;
+  }
+  .pricing-wrapper-right {
+    align-items: center;
+  }
+  .pricing-heading {
+    text-align: center;
+  }
+  .pricing-heading h1 {
+    font-size: 28px;
+  }
+
+  /* FAQs */
+
+ .faqs-left-dropdown-description-heading-and-icon h3 {
+    font-size: 12px;
+ }
+ .faqs-left-wrapper {
+    align-items: center;
+ }
+ .faqs-left-heading {
+    text-align: center;
+ }
+ .faqs-left-heading h1 {
+    font-size: 28px;
+ }
+}
