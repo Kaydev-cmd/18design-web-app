@@ -51,11 +51,15 @@ body {
   border: none;
 }
 
+.hero-form form input {
+  width: 45.8%;
+}
+
 .hero-form form button {
   cursor: pointer;
   background-color: #151515;
   color: #ffffff;
-  transition: 0.2 ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .hero-form form button:hover {
@@ -391,6 +395,12 @@ body {
     max-width: 1280px;
   }
 
+  /* Hero */
+
+  .hero-form form input {
+    width: 51%;
+  }
+
   /* Pricing */
 
   .pricing-heading h1 {
@@ -409,7 +419,9 @@ body {
   .hero-heading h1 {
     font-size: 56px;
   }
-
+  .hero-form form input {
+    width: 62%;
+  }
   /* About Us */
 
   .about-us-heading h1 {
@@ -490,6 +502,9 @@ body {
   }
   .hero-description p {
     font-size: 14px;
+  }
+  .hero-form form input {
+    width: 67%;
   }
 
   /* About Us */
@@ -602,6 +617,9 @@ body {
   .hero-wrapper-left {
     gap: 10px;
   }
+  .hero-form form input {
+    width: 70%;
+  }
 
   /* About Us */
 
@@ -657,6 +675,9 @@ body {
   .hero-wrapper-left {
     align-items: center;
     gap: 26px;
+  }
+  .hero-form form input {
+    width: 66%;
   }
 
   /* About Us */
@@ -728,6 +749,9 @@ body {
 
   .hero-heading h1 {
     font-size: 28px;
+  }
+  .hero-wrapper {
+    justify-content: center;
   }
   .hero-wrapper-left {
     align-items: center;
