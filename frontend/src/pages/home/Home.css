@@ -340,7 +340,7 @@
 }
 
 .faqs-left-wrapper {
-    gap: 10px;
+  gap: 10px;
 }
 
 .faqs-left-btn button {
@@ -801,16 +801,16 @@
 
   /* FAQs */
 
- .faqs-left-dropdown-description-heading-and-icon h3 {
+  .faqs-left-dropdown-description-heading-and-icon h3 {
     font-size: 12px;
- }
- .faqs-left-wrapper {
+  }
+  .faqs-left-wrapper {
     align-items: center;
- }
- .faqs-left-heading {
+  }
+  .faqs-left-heading {
     text-align: center;
- }
- .faqs-left-heading h1 {
+  }
+  .faqs-left-heading h1 {
     font-size: 28px;
- }
+  }
 }
