@@ -54,55 +54,32 @@ const Home = () => {
       <section className="about-us">
         <div className="container">
           <div className="about-us-wrapper">
-            <div className="about-us-wrapper-left">
-              <div className="about-us-banner-wrapper">
-                <div className="about-us-banner">
-                  <img
-                    src="/images/home/Illustration_2.png"
-                    alt="About us banner"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="about-us-wrapper-right">
-              <div className="about-us-btn-wrapper">
-                <div className="about-us-btn">
-                  <button>About Us</button>
-                </div>
-              </div>
-              <div className="about-us-heading-wrapper">
-                <div className="about-us-heading">
-                  <h1>
-                    Faster, friendlier feedback
-                    <br />
-                    loops make life easier.
-                  </h1>
-                </div>
-              </div>
-              <div className="about-us-description-wrapper">
-                <div className="about-us-description">
-                  <p>
-                    Add a Viewer to your team so that they can see everything
-                    you share, or invite
-                    <br />
-                    people to individual documents. It&apos;s up to you.
-                    Stakeholders can check
-                    <br />
-                    out designs in their web browser, test prototypes and leave
-                    feedback for free.
-                  </p>
-                </div>
-              </div>
-              <div className="about-us-list-wrapper">
-                <div className="about-us-list">
-                  <ul>
-                    <li>Shared Cloud Librabries, for single source of truth</li>
-                    <li>Prototype previews for user testing and research</li>
-                    <li>Easy organization with projects</li>
-                    <li>Free developer handoff, right inside the browser</li>
-                    <li>Two factor authentication and SSO</li>
-                  </ul>
-                </div>
+            <img src="/images/home/Illustration_2.png" alt="About us banner" />
+            <div className="about-us-right-wrapper">
+              <button className="about-us-btn">About Us</button>
+              <h1>
+                Faster, friendlier feedback
+                <br />
+                loops make life easier.
+              </h1>
+              <p>
+                Add a Viewer to your team so that they can see everything you
+                share, or invite
+                <br />
+                people to individual documents. It&apos;s up to you.
+                Stakeholders can check
+                <br />
+                out designs in their web browser, test prototypes and leave
+                feedback for free.
+              </p>
+              <div className="about-us-list">
+                <ul>
+                  <li>Shared Cloud Librabries, for single source of truth</li>
+                  <li>Prototype previews for user testing and research</li>
+                  <li>Easy organization with projects</li>
+                  <li>Free developer handoff, right inside the browser</li>
+                  <li>Two factor authentication and SSO</li>
+                </ul>
               </div>
             </div>
           </div>
