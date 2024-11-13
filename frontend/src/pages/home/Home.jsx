@@ -1,7 +1,12 @@
 // import React from "react";
 import "./Home.css";
 
-// Push the navbar first, followed by the hero, the about us, then the how it works section.
+// Refactor Pricing Cards section
+
+/* 
+  Push the navbar first, followed by the hero, the about us, the how it works section, then
+  pricing section.
+*/
 
 // Ticket #2: Check the margin spacing between the sections throughout the project!!
 // Ticket #3: Handle the responsiveness for the pricing and common section and the footer!!

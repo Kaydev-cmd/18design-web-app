@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="container">
           {/* Navbar */}
           <div className="navbar-wrapper">
-            <a href="">
+            <a href="/">
               <img src="/images/home/LogoBlack.png" alt="Black Logo" />
             </a>
 
