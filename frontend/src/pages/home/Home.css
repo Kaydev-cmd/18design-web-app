@@ -72,18 +72,18 @@ body {
   margin-bottom: 20px;
 }
 
-.about-us-heading h1 {
+.about-us .about-us-right-wrapper h1 {
   font-family: "Roboto", sans-serif;
   font-size: 66px;
 }
 
 .about-us-wrapper,
-.about-us-wrapper-right,
+.about-us-right-wrapper,
 .about-us-list ul {
   display: flex;
 }
 
-.about-us-wrapper-right,
+.about-us-right-wrapper,
 .about-us-list ul {
   flex-direction: column;
 }
@@ -94,13 +94,14 @@ body {
   gap: 60px;
 }
 
-.about-us-wrapper-right,
+.about-us-right-wrapper,
 .about-us-list ul {
   gap: 20px;
 }
 
-.about-us-btn button {
+.about-us-right-wrapper .about-us-btn {
   text-transform: uppercase;
+  width: 120px;
   font-weight: bold;
   padding: 8px 20px;
   cursor: pointer;
@@ -424,7 +425,7 @@ body {
   }
   /* About Us */
 
-  .about-us-heading h1 {
+  .about-us .about-us-right-wrapper h1 {
     font-size: 56px;
   }
 
@@ -511,13 +512,13 @@ body {
 
   /* About Us */
 
-  .about-us-banner img {
+  .about-us .about-us-wrapper img {
     width: 400px;
   }
-  .about-us-heading h1 {
+  .about-us .about-us-right-wrapper h1 {
     font-size: 48px;
   }
-  .about-us-description p {
+  .about-us .about-us-right-wrapper p {
     font-size: 14px;
   }
   .about-us-list ul li {
@@ -631,13 +632,14 @@ body {
 
   /* About Us */
 
-  .about-us-heading h1 {
+  .about-us .about-us-right-wrapper h1 {
     font-size: 36px;
   }
-  .about-us-banner img {
+  .about-us .about-us-wrapper img {
     width: 300px;
   }
-  .about-us-btn button {
+  .about-us .about-us-btn {
+    width: 100px;
     padding: 6px 10px;
   }
 
@@ -677,6 +679,10 @@ body {
   .hero .hero-wrapper img {
     display: none;
   }
+  .hero .hero-left-wrapper h1,
+  .hero .hero-left-wrapper p {
+    text-align: center;
+  }
   .hero .hero-left-wrapper h1 {
     font-size: 54px;
   }
@@ -695,7 +701,17 @@ body {
     gap: 50px;
     flex-wrap: wrap;
   }
-  .about-us-heading h1 {
+  .about-us-right-wrapper {
+    align-items: center;
+  }
+  .about-us .about-us-right-wrapper h1 {
+    font-size: 28px;
+  }
+  .about-us .about-us-right-wrapper h1,
+  .about-us .about-us-right-wrapper p {
+    text-align: center;
+  }
+  .about-us .about-us-right-wrapper h1 {
     font-size: 54px;
   }
 
@@ -752,7 +768,6 @@ body {
   /* Hero */
   .hero .hero-left-wrapper h1 {
     font-size: 28px;
-    text-align: center;
   }
   .hero-wrapper {
     justify-content: center;
@@ -764,20 +779,12 @@ body {
 
   /* About Us */
 
-  .about-us-wrapper-right {
-    align-items: center;
-  }
-  .about-us-heading {
-    text-align: center;
-  }
-  .about-us-heading h1 {
+  .about-us .about-us-right-wrapper h1 {
     font-size: 28px;
   }
-  .about-us-list ul li {
-    list-style: none;
-  }
-  .about-us-btn button {
-    padding: 4px 5px;
+  .about-us .about-us-btn {
+    width: 120px;
+    padding: 6px 5px;
   }
 
   /* How It Works */
