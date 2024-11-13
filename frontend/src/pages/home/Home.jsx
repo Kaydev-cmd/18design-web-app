@@ -1,7 +1,8 @@
 // import React from "react";
 import "./Home.css";
 
-// Ticket #1: Fix the enter email input box's width in the hero section!!
+// Push the navbar first, followed by the hero then the about us.
+
 // Ticket #2: Check the margin spacing between the sections throughout the project!!
 // Ticket #3: Handle the responsiveness for the pricing and common section and the footer!!
 // Ticket #4: Check button transitions for buttons throughout the project!!
@@ -90,149 +91,87 @@ const Home = () => {
       <section className="how-it-works">
         <div className="container">
           <div className="how-it-works-wrapper">
-            <div className="how-it-works-wrapper-left">
-              <div className="how-it-works-btn-wrapper">
-                <div className="how-it-works-btn">
-                  <button>How It Works</button>
-                </div>
-              </div>
-              <div className="how-it-works-heading-wrapper">
-                <div className="how-it-works-heading">
-                  <h1>
-                    Building the best space
-                    <br />
-                    for collaboration.
-                  </h1>
-                </div>
-              </div>
+            <div className="how-it-works-left-wrapper">
+              <button className="how-it-works-btn">How It Works</button>
+              <h1>
+                Building the best space
+                <br />
+                for collaboration.
+              </h1>
 
               {/* Shared Cloud Libraries */}
               <div className="shared-cloud-libraries-wrapper">
-                <div className="shared-cloud-libraries-img-wrapper">
-                  <div className="shared-cloud-libraries-img">
-                    <img
-                      src="/images/home/icon_1.png"
-                      alt="shared cloud libraries icon"
-                    />
-                  </div>
-                </div>
-                <div className="shared-cloud-libraries-heading-and-description-wrapper">
-                  <div className="shared-cloud-libraries-heading-wrapper">
-                    <div className="shared-cloud-libraries-heading">
-                      <h4>Shared Cloud Libraries</h4>
-                    </div>
-                  </div>
-                  <div className="shared-cloud-libraries-description-wrapper">
-                    <div className="shared-cloud-libraries-description">
-                      <p>
-                        Navigate to the Your work panel in the left sidebar.
-                        <br />
-                        Select the library you want to share. Select the Share
-                        <br />
-                        icon in the upper right to share the library.
-                      </p>
-                    </div>
-                  </div>
+                <img
+                  src="/images/home/icon_1.png"
+                  alt="shared cloud libraries icon"
+                />
+                <div className="heading-and-description">
+                  <h4>Shared Cloud Libraries</h4>
+                  <p>
+                    Navigate to the Your work panel in the left sidebar.
+                    <br />
+                    Select the library you want to share. Select the Share
+                    <br />
+                    icon in the upper right to share the library.
+                  </p>
                 </div>
               </div>
 
               {/* Develop Handoff */}
               <div className="developer-handoff-wrapper">
-                <div className="developer-handoff-img-wrapper">
-                  <div className="developer-handoff-img">
-                    <img
-                      src="/images/home/icon_2.png"
-                      alt="developer handoff icon"
-                    />
-                  </div>
-                </div>
-                <div className="developer-handoff-heading-and-description-wrapper">
-                  <div className="developer-handoff-heading-wrapper">
-                    <div className="developer-handoff-heading">
-                      <h4>Free developer handoff, right inside</h4>
-                    </div>
-                  </div>
-                  <div className="developer-handoff-description-wrapper">
-                    <div className="developer-handoff-description">
-                      <p>
-                        Cloud Inspector makes it easy for developers to get
-                        <br />
-                        the information they need to turn pixels into code -
-                        <br />
-                        all in the browser and, most importantly, for free.
-                      </p>
-                    </div>
-                  </div>
+                <img
+                  src="/images/home/icon_2.png"
+                  alt="developer handoff icon"
+                />
+                <div className="heading-and-description">
+                  <h4>Free developer handoff, right inside</h4>
+                  <p>
+                    Cloud Inspector makes it easy for developers to get
+                    <br />
+                    the information they need to turn pixels into code -
+                    <br />
+                    all in the browser and, most importantly, for free.
+                  </p>
                 </div>
               </div>
 
               {/* Real time collaborative editing */}
               <div className="real-time-collaborative-editing-wrapper">
-                <div className="real-time-collaborative-editing-img-wrapper">
-                  <div className="real-time-collaborative-editing-img">
-                    <img
-                      src="/images/home/icon_3.png"
-                      alt="real time collaborative editing icon"
-                    />
-                  </div>
-                </div>
-                <div className="real-time-collaborative-editing-heading-and-description-wrapper">
-                  <div className="real-time-collaborative-editing-heading-wrapper">
-                    <div className="real-time-collaborative-editing-heading">
-                      <h4>Real-time collaborative editing</h4>
-                    </div>
-                  </div>
-                  <div className="real-time-collaborative-editing-description-wrapper">
-                    <div className="real-time-collaborative-editing-description">
-                      <p>
-                        Room Service helps you build real-time
-                        <br />
-                        collaborative features. Add real-time data sync! Let
-                        <br />
-                        users edit the same data at the same time.
-                      </p>
-                    </div>
-                  </div>
+                <img
+                  src="/images/home/icon_3.png"
+                  alt="real time collaborative editing icon"
+                />
+                <div className="heading-and-description">
+                  <h4>Real-time collaborative editing</h4>
+                  <p>
+                    Room Service helps you build real-time
+                    <br />
+                    collaborative features. Add real-time data sync! Let
+                    <br />
+                    users edit the same data at the same time.
+                  </p>
                 </div>
               </div>
 
               {/* Cloud API */}
               <div className="cloud-api-wrapper">
-                <div className="cloud-api-img-wrapper">
-                  <div className="cloud-api-img">
-                    <img src="/images/home/icon_4.png" alt="cloud api icon" />
-                  </div>
-                </div>
-                <div className="cloud-api-heading-and-description-wrapper">
-                  <div className="cloud-api-heading-wrapper">
-                    <div className="cloud-api-heading">
-                      <h4>Integrations with the Cloud API</h4>
-                    </div>
-                  </div>
-                  <div className="cloud-api-description-wrapper">
-                    <div className="cloud-api-description">
-                      <p>
-                        Unlocking that value requires an IPaaS that delivers
-                        <br />
-                        the transformation power of APIs and integration.
-                      </p>
-                    </div>
-                  </div>
+                <img src="/images/home/icon_4.png" alt="cloud api icon" />
+                <div className="heading-and-description">
+                  <h4>Integrations with the Cloud API</h4>
+                  <p>
+                    Unlocking that value requires an IPaaS that delivers
+                    <br />
+                    the transformation power of APIs and integration.
+                  </p>
                 </div>
               </div>
             </div>
 
             {/* How it works banner */}
-            <div className="how-it-works-wrapper-right">
-              <div className="how-it-works-banner-wrapper">
-                <div className="how-it-works-banner">
-                  <img
-                    src="/images/home/Illustration_3.png"
-                    alt="How It Works banner"
-                  />
-                </div>
-              </div>
-            </div>
+            <img
+              src="/images/home/Illustration_3.png"
+              alt="How It Works banner"
+            />
           </div>
         </div>
         {/* </div> */}

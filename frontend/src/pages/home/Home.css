@@ -117,15 +117,15 @@ body {
 }
 
 .how-it-works-wrapper,
-.how-it-works-wrapper-left,
+.how-it-works-left-wrapper,
 .shared-cloud-libraries-wrapper,
 .developer-handoff-wrapper,
 .real-time-collaborative-editing-wrapper,
 .cloud-api-wrapper,
-.shared-cloud-libraries-heading-and-description-wrapper,
-.developer-handoff-heading-and-description-wrapper,
-.real-time-collaborative-editing-heading-and-description-wrapper,
-.cloud-api-heading-and-description-wrapper {
+.shared-cloud-libraries-wrapper .heading-and-description,
+.developer-handoff-wrapper .heading-and-description,
+.real-time-collaborative-editing-wrapper .heading-and-description,
+.cloud-api-wrapper .heading-and-description {
   display: flex;
 }
 
@@ -137,7 +137,7 @@ body {
   align-items: center;
 }
 
-.how-it-works-wrapper-left,
+.how-it-works-left-wrapper,
 .shared-cloud-libraries-wrapper,
 .developer-handoff-wrapper,
 .real-time-collaborative-editing-wrapper,
@@ -145,11 +145,11 @@ body {
   gap: 20px;
 }
 
-.how-it-works-wrapper-left,
-.shared-cloud-libraries-heading-and-description-wrapper,
-.developer-handoff-heading-and-description-wrapper,
-.real-time-collaborative-editing-heading-and-description-wrapper,
-.cloud-api-heading-and-description-wrapper {
+.how-it-works-left-wrapper,
+.shared-cloud-libraries-wrapper .heading-and-description,
+.developer-handoff-wrapper .heading-and-description,
+.real-time-collaborative-editing-wrapper .heading-and-description,
+.cloud-api-wrapper .heading-and-description {
   flex-direction: column;
 }
 
@@ -157,19 +157,20 @@ body {
   justify-content: space-evenly;
 }
 
-.how-it-works-heading h1 {
+.how-it-works .how-it-works-left-wrapper h1 {
   font-family: "Roboto", sans-serif;
   font-size: 66px;
 }
 
-.shared-cloud-libraries-heading-and-description-wrapper,
-.developer-handoff-heading-and-description-wrapper,
-.real-time-collaborative-editing-heading-and-description-wrapper,
-.cloud-api-heading-and-description-wrapper {
+.shared-cloud-libraries-wrapper .heading-and-description,
+.developer-handoff-wrapper .heading-and-description,
+.real-time-collaborative-editing-wrapper .heading-and-description,
+.cloud-api-wrapper .heading-and-description {
   gap: 10px;
 }
 
-.how-it-works-btn button {
+.how-it-works .how-it-works-btn {
+  width: 130px;
   text-transform: uppercase;
   font-weight: bold;
   padding: 8px 10px;
@@ -431,7 +432,7 @@ body {
 
   /* How It Works */
 
-  .how-it-works-heading h1 {
+  .how-it-works .how-it-works-left-wrapper h1 {
     font-size: 56px;
   }
 
@@ -527,28 +528,28 @@ body {
 
   /* How It Works */
 
-  .how-it-works-banner img {
+  .how-it-works .how-it-works-wrapper img {
     width: 300px;
   }
-  .how-it-works-heading h1 {
+  .how-it-works .how-it-works-left-wrapper h1 {
     font-size: 48px;
   }
-  .shared-cloud-libraries-img img,
-  .developer-handoff-img img,
-  .real-time-collaborative-editing-img img,
-  .cloud-api-img img {
+  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper img,
+  .how-it-works-left-wrapper .developer-handoff-wrapper img,
+  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper img,
+  .how-it-works-left-wrapper .cloud-api-wrapper img {
     width: 70px;
   }
-  .shared-cloud-libraries-heading h4,
-  .developer-handoff-heading h4,
-  .real-time-collaborative-editing-heading h4,
-  .cloud-api-heading h4 {
+  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper h4,
+  .how-it-works-left-wrapper .developer-handoff-wrapper h4,
+  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper h4,
+  .how-it-works-left-wrapper .cloud-api-wrapper h4 {
     font-size: 20px;
   }
-  .shared-cloud-libraries-description p,
-  .developer-handoff-description p,
-  .real-time-collaborative-editing-heading p,
-  .cloud-api-description p {
+  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper p,
+  .how-it-works-left-wrapper .developer-handoff-wrapper p,
+  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper p,
+  .how-it-works-left-wrapper .cloud-api-wrapper p {
     font-size: 14px;
   }
 
@@ -645,26 +646,33 @@ body {
 
   /* How It Works */
 
-  .how-it-works-heading h1 {
+  .how-it-works .how-it-works-left-wrapper h1 {
     font-size: 36px;
   }
-  .how-it-works-banner img {
+  .how-it-works .how-it-works-wrapper img {
     width: 300px;
   }
-  .how-it-works-btn button {
+  .how-it-works .how-it-works-btn {
+    width: 120px;
     padding: 6px 5px;
   }
-  .shared-cloud-libraries-heading h4,
-  .developer-handoff-heading h4,
-  .real-time-collaborative-editing-heading h4,
-  .cloud-api-heading h4 {
+  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper h4,
+  .how-it-works-left-wrapper .developer-handoff-wrapper h4,
+  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper h4,
+  .how-it-works-left-wrapper .cloud-api-wrapper h4 {
     font-size: 18px;
   }
-  .shared-cloud-libraries-description p,
-  .developer-handoff-description p,
-  .real-time-collaborative-editing-heading p,
-  .cloud-api-description p {
+  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper p,
+  .how-it-works-left-wrapper .developer-handoff-wrapper p,
+  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper p,
+  .how-it-works-left-wrapper .cloud-api-wrapper p {
     font-size: 14px;
+  }
+  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper img,
+  .how-it-works-left-wrapper .developer-handoff-wrapper img,
+  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper img,
+  .how-it-works-left-wrapper .cloud-api-wrapper img {
+    width: 70px;
   }
 }
 
@@ -684,7 +692,7 @@ body {
     text-align: center;
   }
   .hero .hero-left-wrapper h1 {
-    font-size: 54px;
+    font-size: 48px;
   }
   .hero-left-wrapper {
     align-items: center;
@@ -704,15 +712,12 @@ body {
   .about-us-right-wrapper {
     align-items: center;
   }
-  .about-us .about-us-right-wrapper h1 {
-    font-size: 28px;
-  }
   .about-us .about-us-right-wrapper h1,
   .about-us .about-us-right-wrapper p {
     text-align: center;
   }
   .about-us .about-us-right-wrapper h1 {
-    font-size: 54px;
+    font-size: 48px;
   }
 
   /* How It Works */
@@ -721,8 +726,12 @@ body {
     flex-wrap: wrap;
     gap: 50px;
   }
-  .how-it-works-heading h1 {
-    font-size: 44px;
+  .how-it-works-wrapper .how-it-works-left-wrapper {
+    align-items: center;
+  }
+  .how-it-works-wrapper .how-it-works-left-wrapper h1 {
+    font-size: 48px;
+    text-align: center;
   }
 
   /* Pricing */
@@ -789,28 +798,26 @@ body {
 
   /* How It Works */
 
-  .how-it-works-btn button {
-    padding: 5px;
+  .how-it-works-wrapper .how-it-works-btn {
+    width: 120px;
+    padding: 6px 5px;
   }
-  .how-it-works-wrapper-left {
+  /* .how-it-works-left-wrapper {
     align-items: center;
-  }
-  .how-it-works-heading {
-    text-align: center;
-  }
-  .how-it-works-heading h1 {
+  } */
+  .how-it-works .how-it-works-left-wrapper h1 {
     font-size: 28px;
   }
-  .shared-cloud-libraries-heading h4,
-  .developer-handoff-heading h4,
-  .real-time-collaborative-editing-heading h4,
-  .cloud-api-heading h4 {
+  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper h4,
+  .how-it-works-left-wrapper .developer-handoff-wrapper h4,
+  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper h4,
+  .how-it-works-left-wrapper .cloud-api-wrapper h4 {
     font-size: 16px;
   }
-  .shared-cloud-libraries-description p,
-  .developer-handoff-description p,
-  .real-time-collaborative-editing-description p,
-  .cloud-api-description p {
+  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper p,
+  .how-it-works-left-wrapper .developer-handoff-wrapper p,
+  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper p,
+  .how-it-works-left-wrapper .cloud-api-wrapper p {
     font-size: 12px;
   }
   /* Pricing */
