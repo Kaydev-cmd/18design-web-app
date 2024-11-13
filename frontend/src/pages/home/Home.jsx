@@ -1,13 +1,6 @@
 // import React from "react";
 import "./Home.css";
 
-// Refactor Pricing Cards section
-
-/* 
-  Push the navbar first, followed by the hero, the about us, the how it works section, then
-  pricing section.
-*/
-
 // Ticket #2: Check the margin spacing between the sections throughout the project!!
 // Ticket #3: Handle the responsiveness for the pricing and common section and the footer!!
 // Ticket #4: Check button transitions for buttons throughout the project!!
@@ -202,127 +195,69 @@ const Home = () => {
             </div>
           </div>
 
+          {/* Pricing Cards */}
           <div className="pricing-cards">
-            <div className="pricing-cards-wrapper">
-              <div className="pricing-card-wrapper">
-                <div className="pricing-card">
-                  <div className="pricing-card-amount-and-plan-wrapper">
-                    <div className="pricing-card-amount-wrapper">
-                      <div className="pricing-card-amount">
-                        <h5>
-                          <span>$</span>
-                          <p>49</p>
-                        </h5>
-                      </div>
-                    </div>
-                    <div className="pricing-card-plan-wrapper">
-                      <div className="pricing-card-plan">
-                        <p>per month</p>
-                      </div>
-                    </div>
+            <div className="container">
+              <div className="pricing-cards-wrapper">
+                <div className="pricing-card white first-card">
+                  <div className="amount-and-plan">
+                    <h5>
+                      <span>$</span>
+                      <h6>49</h6>
+                      <p>per month</p>
+                    </h5>
                   </div>
-                  <div className="pricing-card-description-wrapper">
-                    <div className="pricing-card-description">
-                      <p>A pay-once license, just for you</p>
-                    </div>
+                  <p>A pay-once license, just for you</p>
+                  <div className="card-list">
+                    <ul>
+                      <li>The Mac app - yours to keep</li>
+                      <li>Beautiful White_level</li>
+                      <li>One year of saving to Cloud</li>
+                    </ul>
                   </div>
-                  <div className="pricing-card-list-wrapper">
-                    <div className="pricing-card-list">
-                      <ul>
-                        <li>The Mac app - yours to keep</li>
-                        <li>Beautiful White_level</li>
-                        <li>One year of saving to Cloud</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="pricing-card-btn-wrapper">
-                    <div className="pricing-card-btn">
-                      <button>Join</button>
-                    </div>
-                  </div>
+                  <button>Join</button>
                 </div>
-              </div>
 
-              {/* Black Card */}
-              <div className="pricing-card-wrapper pricing-card-wrapper-black-card">
-                <div className="pricing-card">
-                  <div className="pricing-card-amount-and-plan-wrapper">
-                    <div className="pricing-card-amount-wrapper">
-                      <div className="pricing-card-amount">
-                        <h5>
-                          <span>$</span>
-                          <p>99</p>
-                        </h5>
-                      </div>
-                    </div>
-                    <div className="pricing-card-plan-wrapper">
-                      <div className="pricing-card-plan">
-                        <p>per month</p>
-                      </div>
-                    </div>
+                <div className="pricing-card black">
+                  <div className="amount-and-plan">
+                    <h5>
+                      <span>$</span>
+                      <h6>99</h6>
+                      <p>per month</p>
+                    </h5>
                   </div>
-                  <div className="pricing-card-description-wrapper">
-                    <div className="pricing-card-description">
-                      <p>Pro account, just for you</p>
-                    </div>
+                  <p>Pro account, just for you</p>
+                  <div className="card-list">
+                    <ul>
+                      <li>The Mac app - yours to keep</li>
+                      <li>One year of Mac app updates</li>
+                      <li>One year of saving to Cloud</li>
+                      <li>A personal Cloud workspace</li>
+                      <li>All tools, just for you</li>
+                    </ul>
                   </div>
-                  <div className="pricing-card-list-wrapper">
-                    <div className="pricing-card-list">
-                      <ul>
-                        <li>The Mac app - yours to keep</li>
-                        <li>One year of Mac app updates</li>
-                        <li>One year of saving to Cloud</li>
-                        <li>A personal Cloud workspace</li>
-                        <li>All tools, just for you</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="pricing-card-btn-wrapper">
-                    <div className="pricing-card-btn">
-                      <button>Join</button>
-                    </div>
-                  </div>
+                  <button>Join</button>
                 </div>
-              </div>
 
-              <div className="pricing-card-wrapper last-card">
-                <div className="pricing-card">
-                  <div className="pricing-card-amount-and-plan-wrapper">
-                    <div className="pricing-card-amount-wrapper">
-                      <div className="pricing-card-amount">
-                        <h5>
-                          <span>$</span>
-                          <p>299</p>
-                        </h5>
-                      </div>
-                    </div>
-                    <div className="pricing-card-plan-wrapper">
-                      <div className="pricing-card-plan">
-                        <p>per month</p>
-                      </div>
-                    </div>
+                <div className="pricing-card white last-card">
+                  <div className="amount-and-plan">
+                    <h5>
+                      <span>$</span>
+                      <h6>299</h6>
+                      <p>per month</p>
+                    </h5>
                   </div>
-                  <div className="pricing-card-description-wrapper">
-                    <div className="pricing-card-description">
-                      <p>A subscription for the whole team</p>
-                    </div>
+                  <p>A subscription for the whole team</p>
+                  <div className="card-list">
+                    <ul>
+                      <li>Access to the Mac app for all</li>
+                      <li>A shared Cloud workspace</li>
+                      <li>Free Cloud access to unlim</li>
+                      <li>Easy team management</li>
+                      <li>No license key required</li>
+                    </ul>
                   </div>
-                  <div className="pricing-card-list-wrapper">
-                    <div className="pricing-card-list">
-                      <ul>
-                        <li>Access to the Mac app for all</li>
-                        <li>A shared Cloud workspace</li>
-                        <li>Free Cloud access for unlim</li>
-                        <li>Easy team management</li>
-                        <li>No license key required</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="pricing-card-btn-wrapper">
-                    <div className="pricing-card-btn">
-                      <button>Join</button>
-                    </div>
-                  </div>
+                  <button>Join</button>
                 </div>
               </div>
             </div>
