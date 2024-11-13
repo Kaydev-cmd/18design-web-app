@@ -1,4 +1,5 @@
 // Add paths to deadlinks
+// Make navbar sticky
 
 import React, { useState } from "react";
 import "./Navbar.css";

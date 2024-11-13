@@ -1,7 +1,7 @@
 // import React from "react";
 import "./Home.css";
 
-// Push the navbar first, followed by the hero then the about us.
+// Push the navbar first, followed by the hero, the about us, then the how it works section.
 
 // Ticket #2: Check the margin spacing between the sections throughout the project!!
 // Ticket #3: Handle the responsiveness for the pricing and common section and the footer!!
@@ -181,40 +181,19 @@ const Home = () => {
       <section className="pricing">
         <div className="container">
           <div className="pricing-wrapper">
-            <div className="pricing-wrapper-left">
-              <div className="pricing-banner-wrapper">
-                <div className="pricing-banner">
-                  <img
-                    src="/images/home/Illustration_4.png"
-                    alt="Pricing banner"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="pricing-wrapper-right">
-              <div className="pricing-btn-wrapper">
-                <div className="pricing-btn">
-                  <button>Pricing</button>
-                </div>
-              </div>
-              <div className="pricing-heading-wrapper">
-                <div className="pricing-heading">
-                  <h1>
-                    Select a membership level
-                    <br />
-                    the right price for you.
-                  </h1>
-                </div>
-              </div>
-              <div className="pricing-description-wrapper">
-                <div className="pricing-description">
-                  <p>
-                    Prices listed in USD. Taxes may apply.
-                    <br />
-                    By using this program you agree to our terms and policies.
-                  </p>
-                </div>
-              </div>
+            <img src="/images/home/Illustration_4.png" alt="Pricing banner" />
+            <div className="pricing-right-wrapper">
+              <button className="pricing-btn">Pricing</button>
+              <h1>
+                Select a membership level
+                <br />
+                the right price for you.
+              </h1>
+              <p>
+                Prices listed in USD. Taxes may apply.
+                <br />
+                By using this program you agree to our terms and policies.
+              </p>
             </div>
           </div>
 
