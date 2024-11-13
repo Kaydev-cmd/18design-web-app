@@ -1,59 +1,69 @@
-// import React from "react";
+// Add paths to deadlinks
+
+import React, { useState } from "react";
 import "./Navbar.css";
 import { Menu } from "lucide-react";
 
 const Navbar = () => {
+  const [nav, setNav] = useState(false);
+  const handleNav = () => {
+    setNav(!nav);
+  };
+
   return (
     <>
       <div className="navbar">
         <div className="container">
           {/* Navbar */}
           <div className="navbar-wrapper">
-            {/* Logo */}
-            <div className="navbar-logo-wrapper">
-              <div className="navbar-logo">
-                <a href="">
-                  <img src="/images/home/LogoBlack.png" alt="Black Logo" />
-                </a>
-              </div>
-            </div>
+            <a href="">
+              <img src="/images/home/LogoBlack.png" alt="Black Logo" />
+            </a>
 
             {/* Links */}
-            <div className="navbar-links-wrapper">
-              <div className="navbar-links">
-                <ul>
-                  <li>
-                    <a href="">About Us</a>
-                  </li>
-                  <li>
-                    <a href="">How it works</a>
-                  </li>
-                  <li>
-                    <a href="">Pricing</a>
-                  </li>
-                  <li>
-                    <a href="">FAQs</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <nav className="navbar-links" hidden>
+              <ul>
+                <li>
+                  <a href="">About Us</a>
+                </li>
+                <li>
+                  <a href="">How it works</a>
+                </li>
+                <li>
+                  <a href="">Pricing</a>
+                </li>
+                <li>
+                  <a href="">FAQs</a>
+                </li>
+              </ul>
+            </nav>
+
+            {/* Mobile Menu */}
+            <nav className={!nav ? "mobile-navbar-links" : "navbar-links"}>
+              <ul>
+                <li>
+                  <a href="">About Us</a>
+                </li>
+                <li>
+                  <a href="">How it works</a>
+                </li>
+                <li>
+                  <a href="">Pricing</a>
+                </li>
+                <li>
+                  <a href="">FAQs</a>
+                </li>
+              </ul>
+            </nav>
 
             {/* Buttons */}
-            <div className="navbar-btns-wrapper">
-              <div className="navbar-btns">
-                <div className="login-btn-wrapper">
-                  <button>Login</button>
-                </div>
-                <div className="sign-up-btn-wrapper">
-                  <button>Sign Up</button>
-                </div>
-              </div>
+            <div className="navbar-btns">
+              <button className="login-btn">Login</button>
+              <button className="sign-up-btn">Sign Up</button>
             </div>
-            <div className="menu-icon-wrapper">
-              <div className="menu-icon">
-                <Menu />
-              </div>
-            </div>
+
+            {/* Menu */}
+            <Menu className="menu" size={20} onClick={handleNav} />
           </div>
         </div>
       </div>
