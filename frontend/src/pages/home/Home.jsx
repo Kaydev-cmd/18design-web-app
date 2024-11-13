@@ -17,52 +17,34 @@ const Home = () => {
       <section className="hero">
         <div className="container">
           <div className="hero-wrapper">
-            <div className="hero-wrapper-left">
-              <div className="hero-heading-wrapper">
-                <div className="hero-heading">
-                  <h1>
-                    Always Track &#38;
-                    <br />
-                    Analyze Your Business
-                    <br />
-                    Statistics To Succeed.
-                  </h1>
-                </div>
+            <div className="hero-left-wrapper">
+              <h1>
+                Always Track &#38;
+                <br />
+                Analyze Your Business
+                <br />
+                Statistics To Succeed.
+              </h1>
+              <p>
+                A better way to manage your sales, team, clients &#38; marketing
+                <br />- on a single platform. Powerful, affordable &#38; easy.
+              </p>
+              <div className="hero-form">
+                <form>
+                  <input type="text" placeholder="Enter Your Email" />
+                  <button className="get-started-btn">Get Started</button>
+                </form>
               </div>
-              <div className="hero-description-wrapper">
-                <div className="hero-description">
-                  <p>
-                    A better way to manage your sales, team, clients &#38;
-                    marketing
-                    <br />- on a single platform. Powerful, affordable &#38;
-                    easy.
-                  </p>
-                </div>
-              </div>
-              <div className="hero-form-wrapper">
-                <div className="hero-form">
-                  <form>
-                    <input type="text" placeholder="Enter Your Email" />
-                    <button className="get-started-btn">Get Started</button>
-                  </form>
-                </div>
-              </div>
-              <div className="hero-icons-wrapper">
-                <div className="hero-icons">
-                  <img src="/images/home/m_visa.png" alt="Visa Icon" />
-                  <img
-                    src="/images/home/m_mastercard.png"
-                    alt="Mastercard Icon"
-                  />
-                  <img src="/images/home/m_paypall.png" alt="Paypal Icon" />
-                </div>
+              <div className="hero-icons">
+                <img src="/images/home/m_visa.png" alt="Visa Icon" />
+                <img
+                  src="/images/home/m_mastercard.png"
+                  alt="Mastercard Icon"
+                />
+                <img src="/images/home/m_paypall.png" alt="Paypal Icon" />
               </div>
             </div>
-            <div className="hero-banner-wrapper">
-              <div className="hero-banner">
-                <img src="/images/home/Illustration_1.png" alt="Hero Banner" />
-              </div>
-            </div>
+            <img src="/images/home/Illustration_1.png" alt="Hero Banner" />
           </div>
         </div>
       </section>

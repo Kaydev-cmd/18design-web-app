@@ -19,13 +19,13 @@ body {
   margin: 20px 0;
 }
 
-.hero-heading h1 {
+.hero .hero-left-wrapper h1 {
   font-family: "Roboto", sans-serif;
   font-size: 66px;
 }
 
 .hero-wrapper,
-.hero-wrapper-left,
+.hero-left-wrapper,
 .hero-icons {
   display: flex;
 }
@@ -35,12 +35,12 @@ body {
   justify-content: space-between;
 }
 
-.hero-wrapper-left,
+.hero-left-wrapper,
 .hero-icons {
   gap: 20px;
 }
 
-.hero-wrapper-left {
+.hero-left-wrapper {
   flex-direction: column;
   justify-content: space-evenly;
 }
@@ -59,7 +59,7 @@ body {
   cursor: pointer;
   background-color: #151515;
   color: #ffffff;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .hero-form form button:hover {
@@ -387,7 +387,7 @@ body {
   width: 500px;
 }
 
-/* Responsive */
+/* Media Queries */
 
 /* 2xl */
 @media (max-width: 1536px) {
@@ -416,7 +416,7 @@ body {
 
   /* Hero */
 
-  .hero-heading h1 {
+  .hero .hero-left-wrapper h1 {
     font-size: 56px;
   }
   .hero-form form input {
@@ -489,18 +489,20 @@ body {
 
   /* Hero */
 
-  .hero-wrapper-left {
+  .hero-left-wrapper {
     gap: 15px;
   }
-
-  .hero-banner img {
+  .hero .hero-wrapper img {
     width: 400px;
   }
-
-  .hero-heading h1 {
+  .hero-left-wrapper .hero-icons img {
+    width: 80px;
+    height: 46px;
+  }
+  .hero .hero-left-wrapper h1 {
     font-size: 48px;
   }
-  .hero-description p {
+  .hero .hero-left-wrapper p {
     font-size: 14px;
   }
   .hero-form form input {
@@ -608,17 +610,23 @@ body {
 
   /* Hero */
 
-  .hero-banner img {
+  .hero .hero-wrapper img {
     width: 300px;
   }
-  .hero-heading h1 {
+  .hero .hero-left-wrapper h1 {
     font-size: 36px;
   }
-  .hero-wrapper-left {
+  .hero-left-wrapper {
     gap: 10px;
   }
   .hero-form form input {
-    width: 70%;
+    width: 60%;
+  }
+  .hero-form form button {
+    padding: 12px 8px;
+  }
+  .hero .hero-icons img {
+    width: 100%;
   }
 
   /* About Us */
@@ -666,13 +674,13 @@ body {
 
   /* Hero */
 
-  .hero-banner-wrapper {
+  .hero .hero-wrapper img {
     display: none;
   }
-  .hero-heading h1 {
+  .hero .hero-left-wrapper h1 {
     font-size: 54px;
   }
-  .hero-wrapper-left {
+  .hero-left-wrapper {
     align-items: center;
     gap: 26px;
   }
@@ -742,18 +750,14 @@ body {
   }
 
   /* Hero */
-
-  .hero-heading {
-    text-align: center;
-  }
-
-  .hero-heading h1 {
+  .hero .hero-left-wrapper h1 {
     font-size: 28px;
+    text-align: center;
   }
   .hero-wrapper {
     justify-content: center;
   }
-  .hero-wrapper-left {
+  .hero-left-wrapper {
     align-items: center;
     gap: 16px;
   }
