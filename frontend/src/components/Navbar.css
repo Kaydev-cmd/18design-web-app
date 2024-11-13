@@ -87,7 +87,7 @@
   width: 30%;
   background-color: #000300;
   height: 100%;
-  border-right: 3px solid gray;
+  /* border-right: 3px solid gray; */
   top: 0;
   left: 0;
   transition: 0.3s ease-in-out;
