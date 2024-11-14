@@ -327,25 +327,24 @@ body {
 
 .faqs-wrapper,
 .faqs-left-wrapper,
-.faqs-left-dropdown-descriptions,
-.faqs-left-dropdown-description-wrapper,
-.faqs-left-dropdown-description-heading-and-icon {
+.dropdown-descriptions,
+.dropdown-description .heading-and-icon {
   display: flex;
 }
 
 .faqs-left-wrapper,
-.faqs-left-dropdown-descriptions,
-.faqs-left-dropdown-description-wrapper {
+.dropdown-descriptions,
+.dropdown-descriptions .dropdown-description {
   flex-direction: column;
 }
 
 .faqs-left-wrapper,
-.faqs-left-dropdown-description-heading-and-icon {
+.dropdown-description .heading-and-icon {
   justify-content: space-between;
 }
 
-.faqs-left-btn button,
-.faqs-left-dropdown-description-heading-and-icon h3 {
+.faqs-wrapper .faqs-left-wrapper button,
+.dropdown-description .heading-and-icon h3 {
   font-weight: bold;
 }
 
@@ -359,39 +358,36 @@ body {
   gap: 10px;
 }
 
-.faqs-left-btn button {
+.faqs-wrapper .faqs-left-wrapper button {
+  width: 120px;
   text-transform: uppercase;
   padding: 8px 20px;
   cursor: pointer;
 }
 
-.faqs-left-dropdown-descriptions {
+.dropdown-descriptions {
   gap: 16px;
 }
 
-.faqs-left-heading h1 {
+.faqs-wrapper .faqs-left-wrapper h1 {
   font-size: 66px;
   font-family: "Roboto", sans-serif;
 }
 
-.faqs-left-dropdown-description-wrapper {
-  gap: 24px;
-}
-
-.faqs-left-dropdown-description-heading-and-icon {
+.dropdown-description .heading-and-icon {
   align-items: center;
 }
 
-.faqs-left-dropdown-description-heading-and-icon h3 {
+.dropdown-description .heading-and-icon h3 {
   font-size: 16px;
 }
 
-.faqs-left-dropdown-descriptions hr {
-  height: 4px;
+.dropdown-descriptions hr {
+  height: 2px;
   background-color: #000;
 }
 
-.faqs-banner img {
+.faqs-wrapper .faqs-banner {
   width: 500px;
 }
 
@@ -463,17 +459,17 @@ body {
 
   /* FAQs */
 
-  .faqs-left-heading h1 {
+  .faqs-wrapper .faqs-left-wrapper h1 {
     font-size: 54px;
   }
-  .faqs-left-description p,
-  .faqs-left-dropdown-description-text p {
+  .faqs-wrapper .faqs-left-wrapper p,
+  .dropdown-description .heading-and-icon p {
     font-size: 14px;
   }
-  .faqs-left-dropdown-description-heading-and-icon h3 {
+  .dropdown-description .heading-and-icon h3 {
     font-size: 16px;
   }
-  .faqs-banner img {
+  .faqs-wrapper .faqs-banner {
     width: 400px;
   }
 }
@@ -605,17 +601,17 @@ body {
 
   /* FAQs */
 
-  .faqs-left-heading h1 {
+  .faqs-wrapper .faqs-left-wrapper h1 {
     font-size: 38px;
   }
-  .faqs-left-description p,
-  .faqs-left-dropdown-description-text p {
+  .faqs-wrapper .faqs-left-wrapper p,
+  .dropdown-description .heading-and-icon p {
     font-size: 12px;
   }
-  .faqs-left-dropdown-description-heading-and-icon h3 {
+  .dropdown-description .heading-and-icon h3 {
     font-size: 14px;
   }
-  .faqs-banner img {
+  .faqs-wrapper .faqs-banner {
     width: 320px;
   }
 }
@@ -817,7 +813,7 @@ body {
     flex-wrap: wrap;
     gap: 30px;
   }
-  .faqs-banner img {
+  .faqs-wrapper .faqs-banner {
     width: 300px;
   }
 }
@@ -896,16 +892,16 @@ body {
 
   /* FAQs */
 
-  .faqs-left-dropdown-description-heading-and-icon h3 {
+  .dropdown-description .heading-and-icon h3 {
     font-size: 12px;
   }
   .faqs-left-wrapper {
     align-items: center;
   }
-  .faqs-left-heading {
+  .faqs-wrapper .faqs-left-wrapper p:nth-child(3) {
     text-align: center;
   }
-  .faqs-left-heading h1 {
+  .faqs-wrapper .faqs-left-wrapper h1 {
     font-size: 28px;
   }
 }

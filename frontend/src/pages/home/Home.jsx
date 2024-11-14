@@ -271,133 +271,80 @@ const Home = () => {
         <div className="container">
           <div className="faqs-wrapper">
             <div className="faqs-left-wrapper">
-              <div className="faqs-left-btn-wrapper">
-                <div className="faqs-left-btn">
-                  <button>FAQs</button>
+              <button>FAQs</button>
+              <h1>Common Questions.</h1>
+              <p>
+                The online form also provides links to a set of frequently
+                <br />
+                asked questions, other information materials related to
+                <br />
+                the financial disclosure programme.
+              </p>
+              <div className="dropdown-descriptions">
+                <div className="dropdown-description">
+                  <div className="heading-and-icon">
+                    <h3>How much does a Teams subscription cost?</h3>
+                    <img src="/images/home/i_plus.png" alt="Plus icon" />
+                  </div>
                 </div>
-              </div>
-              <div className="faqs-left-heading-wrapper">
-                <div className="faqs-left-heading">
-                  <h1>Common Questions.</h1>
+                <p>
+                  Contributors are members of your team who need access to use
+                  <br />
+                  the Mac app to create and edit Sketch documents. These prices
+                  dont include sales
+                  <br />
+                  tax, which may still apply. Head over to our pricing page to
+                  get full details.
+                </p>
+
+                <hr />
+
+                <div className="dropdown-description">
+                  <div className="heading-and-icon">
+                    <h3>
+                      Do I still need to purchase licenses for the Mac app?
+                    </h3>
+                    <img src="/images/home/i_minus.png" alt="Plus icon" />
+                  </div>
                 </div>
-              </div>
-              <div className="faqs-left-description-wrapper">
-                <div className="faqs-left-description">
-                  <p>
-                    The online form also provides links to a set of frequently
-                    <br />
-                    asked questions, other information materials related to
-                    <br />
-                    the financial disclosure programme.
-                  </p>
+
+                <hr />
+
+                <div className="dropdown-description">
+                  <div className="heading-and-icon">
+                    <h3>
+                      What are the differences between Contributors and Viewers?
+                    </h3>
+                    <img src="/images/home/i_minus.png" alt="Plus icon" />
+                  </div>
                 </div>
-              </div>
-              <div className="faqs-left-dropdown-descriptions-wrapper">
-                <div className="faqs-left-dropdown-descriptions">
-                  <div className="faqs-left-dropdown-description-wrapper">
-                    <div className="faqs-left-dropdown-description">
-                      <div className="faqs-left-dropdown-description-heading-and-icon-wrapper">
-                        <div className="faqs-left-dropdown-description-heading-and-icon">
-                          <h3>How much does a Teams subscription cost?</h3>
-                          <div className="faqs-left-dropdown-description-icon">
-                            <img
-                              src="/images/home/i_plus.png"
-                              alt="Plus icon"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="faqs-left-dropdown-description-text-wrapper">
-                      <div className="faqs-left-dropdown-description-text">
-                        <p>
-                          Contributors are members of your team who need access
-                          to use
-                          <br />
-                          the Mac app to create and edit Sketch documents. These
-                          prices dont include sales
-                          <br />
-                          tax, which may still apply. Head over to our pricing
-                          page to get full details.
-                        </p>
-                      </div>
-                    </div>
+
+                <hr />
+
+                <div className="dropdown-description">
+                  <div className="heading-and-icon">
+                    <h3>
+                      How long does the free Teams subscription trial last?
+                    </h3>
+                    <img src="/images/home/i_minus.png" alt="Plus icon" />
                   </div>
+                </div>
 
-                  <hr />
+                <hr />
 
-                  <div className="faqs-left-dropdown-description">
-                    <div className="faqs-left-dropdown-description-heading-and-icon-wrapper">
-                      <div className="faqs-left-dropdown-description-heading-and-icon">
-                        <h3>
-                          Do I still need to purchase licenses for the Mac app?
-                        </h3>
-                        <div className="faqs-left-dropdown-description-icon">
-                          <img src="/images/home/i_minus.png" alt="Plus icon" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <hr />
-
-                  <div className="faqs-left-dropdown-description">
-                    <div className="faqs-left-dropdown-description-heading-and-icon-wrapper">
-                      <div className="faqs-left-dropdown-description-heading-and-icon">
-                        <h3>
-                          What are the differences between Contributors and
-                          Viewers?
-                        </h3>
-                        <div className="faqs-left-dropdown-description-icon">
-                          <img src="/images/home/i_minus.png" alt="Plus icon" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <hr />
-
-                  <div className="faqs-left-dropdown-description">
-                    <div className="faqs-left-dropdown-description-heading-and-icon-wrapper">
-                      <div className="faqs-left-dropdown-description-heading-and-icon">
-                        <h3>
-                          How long does the free Teams subscription trial last?
-                        </h3>
-                        <div className="faqs-left-dropdown-description-icon">
-                          <img src="/images/home/i_minus.png" alt="Plus icon" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <hr />
-
-                  <div className="faqs-left-dropdown-description">
-                    <div className="faqs-left-dropdown-description-heading-and-icon-wrapper">
-                      <div className="faqs-left-dropdown-description-heading-and-icon">
-                        <h3>
-                          Will program for Teams replace volume licensing?
-                        </h3>
-                        <div className="faqs-left-dropdown-description-icon">
-                          <img src="/images/home/i_minus.png" alt="Plus icon" />
-                        </div>
-                      </div>
-                    </div>
+                <div className="dropdown-description">
+                  <div className="heading-and-icon">
+                    <h3>Will program for Teams replace volume licensing?</h3>
+                    <img src="/images/home/i_minus.png" alt="Plus icon" />
                   </div>
                 </div>
               </div>
             </div>
-
-            <div className="faqs-right-wrapper">
-              <div className="faqs-banner-wrapper">
-                <div className="faqs-banner">
-                  <img
-                    src="/images/home/Illustration_5.png"
-                    alt="FAQs banner"
-                  />
-                </div>
-              </div>
-            </div>
+            <img
+              src="/images/home/Illustration_5.png"
+              alt="FAQs banner"
+              className="faqs-banner"
+            />
           </div>
         </div>
       </section>
