@@ -1,139 +1,148 @@
 .footer {
   background-color: #151515;
-  height: 400px;
+  height: 420px;
   margin-top: 50px;
 }
 
-.footer-content-wrapper,
-.footer-left-content,
-.footer-right-content-wrapper,
-.footer-right-upper-content,
-.footer-right-upper-content-links,
-.footer-right-upper-content-email,
-.footer-right-upper-content-left-links ul,
-.footer-left-lower-content-icons {
+.footer-content-wrapper {
+  padding: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left Wrapper */
+
+.footer-content-wrapper .left-wrapper,
+.footer-content-wrapper {
   display: flex;
 }
 
-.footer-content-wrapper,
-.footer-left-content,
-.footer-right-content-wrapper {
-  justify-content: space-between;
+.footer-content-wrapper .left-wrapper .email-field button,
+.footer-content-wrapper .left-wrapper .email-field input {
+  border: none;
 }
 
-.footer-left-content,
-.footer-right-content-wrapper,
-.footer-right-upper-content-email,
-.footer-right-upper-content-left-links ul {
+.footer-content-wrapper .left-wrapper {
   flex-direction: column;
+  gap: 40px;
 }
 
-.footer-content-wrapper,
-.footer-subscribe-field button,
-.footer-right-upper-content-email p a,
-.footer-right-upper-content-left-links ul li a {
-  color: #ffffff;
+.footer-content-wrapper .left-wrapper .white-logo {
+  width: 40px;
 }
 
-.footer-left-content-wrapper,
-.footer-left-content {
-  height: 100%;
+.footer-content-wrapper .left-wrapper h1,
+.footer-content-wrapper .left-wrapper p,
+.footer-content-wrapper .left-wrapper .email-field button {
+  color: #fff;
 }
 
-.footer-right-upper-content-email p a,
-.footer-right-upper-content-left-links ul li a {
-  text-decoration: none;
+.footer-content-wrapper .left-wrapper h1 {
+  font-size: 48px;
 }
 
-.subscribe-btn-wrapper,
-.footer-left-lower-content-icons {
-  position: relative;
+.footer-content-wrapper .left-wrapper .email-field input {
+  width: 500px;
+  height: 42px;
+  padding: 16px;
 }
 
-.footer-left-lower-content-icons,
-.footer-right-upper-content-left-links ul,
-.footer-right-upper-content-email {
-  gap: 20px;
-}
-
-.footer-left-content-wrapper,
-.footer-right-content-wrapper,
-.footer-right-upper-content,
-.footer-right-upper-content-links-wrapper,
-.footer-right-upper-content-links {
-  width: 100%;
-}
-
-.footer-right-upper-content-email p,
-.footer-right-upper-content-email h4,
-.footer-right-upper-content-left-links ul li {
-  font-size: 14px;
-}
-
-.footer-right-upper-content-left-links ul li:hover,
-.footer-right-upper-content-email p a:hover {
-  text-decoration: underline;
-}
-
-.footer-content-wrapper {
-  padding: 40px 80px;
-  height: 400px;
-}
-
-.footer-text h1 {
-  font-size: 42px;
-}
-
-.footer-right-content-wrapper {
-  width: 80%;
-}
-
-.footer-right-upper-content-links {
-  justify-content: space-evenly;
-}
-
-.footer-subscribe-field input {
-  width: 450px;
-  padding: 10px;
-}
-
-.subscribe-btn-wrapper {
-  bottom: 38px;
-  left: 324px;
-}
-
-.footer-copyright-text p {
-  font-size: 12px;
-}
-
-.footer-subscribe-field button {
+.footer-content-wrapper .left-wrapper .email-field button {
+  width: 90px;
+  height: 40px;
   background-color: #151515;
   cursor: pointer;
+  position: relative;
+  right: 16%;
   transition: 0.3s ease-in-out;
-  border: none;
-  padding: 10px 30px;
 }
 
-.footer-subscribe-field button:hover {
+.footer-content-wrapper .left-wrapper .email-field button:hover {
   opacity: 0.9;
 }
 
-.footer-right-upper-content-left-links ul li {
-  list-style: none;
+.footer-content-wrapper .left-wrapper p {
+  font-size: 12px;
 }
 
-.footer-left-lower-content-icons {
+/* Right Wrapper */
+
+.footer-content-wrapper .right-wrapper,
+.footer-content-wrapper .right-wrapper .links,
+.footer-content-wrapper .right-wrapper .middle-and-right-links,
+.footer-content-wrapper .right-wrapper .middle-links,
+.footer-content-wrapper .right-wrapper .right-links,
+.footer-content-wrapper .right-wrapper .email-link,
+.footer-content-wrapper .right-wrapper .social-icons {
+  display: flex;
+}
+
+.footer-content-wrapper .right-wrapper,
+.footer-content-wrapper .right-wrapper .middle-links,
+.footer-content-wrapper .right-wrapper .right-links,
+.footer-content-wrapper .right-wrapper .email-link {
+  flex-direction: column;
+}
+
+.footer-content-wrapper .right-wrapper,
+.footer-content-wrapper .right-wrapper .links,
+.footer-content-wrapper .right-wrapper .middle-and-right-links {
+  gap: 80px;
+}
+
+.footer-content-wrapper .right-wrapper .middle-links,
+.footer-content-wrapper .right-wrapper .right-links,
+.footer-content-wrapper .right-wrapper .email-link {
+  gap: 18px;
+}
+
+.footer-content-wrapper .right-wrapper .email-link h4,
+.footer-content-wrapper .right-wrapper .links p a {
+  color: #fff;
+}
+
+.footer-content-wrapper .right-wrapper .email-link h4 {
+  font-size: 20px;
+}
+
+.footer-content-wrapper .right-wrapper .links p a {
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.footer-content-wrapper .right-wrapper .links p a:hover {
+  text-decoration: underline;
+}
+
+.footer-content-wrapper .right-wrapper .social-icons {
   justify-content: flex-end;
-  right: 10%;
-  top: 18px;
+  gap: 40px;
 }
 
-/* Responsive */
+/* Media Queries */
 
 /* 2xl */
 @media (max-width: 1536px) {
   .container {
     max-width: 1280px;
+  }
+  /* Left Wrapper */
+  .footer-content-wrapper .left-wrapper h1 {
+    font-size: 38px;
+  }
+  .footer-content-wrapper .left-wrapper .email-field input {
+    width: 400px;
+  }
+  .footer-content-wrapper .left-wrapper .email-field button {
+    right: 19%;
+    width: 92px;
+  }
+  /* Right Wrapper */
+  .footer-content-wrapper .right-wrapper .links p a {
+    font-size: 14px;
+  }
+  .footer-content-wrapper .right-wrapper .social-icons a img {
+    width: 40px;
   }
 }
 
@@ -142,28 +151,15 @@
   .container {
     max-width: 1024px;
   }
-  .footer-logo img {
-    width: 40px;
+  .footer-content-wrapper {
+    padding: 40px 0px;
   }
-  .footer-text h1 {
-    font-size: 36px;
+  /* Left Wrapper */
+  .footer-content-wrapper .left-wrapper .email-field input {
+    width: 380px;
   }
-  .footer-subscribe-field input {
-    width: 386px;
-  }
-  .subscribe-btn-wrapper {
-    left: 55.5%;
-  }
-  .footer-right-upper-content {
-    gap: 10px;
-  }
-  .footer-right-upper-content-email p,
-  .footer-right-upper-content-email h4,
-  .footer-right-upper-content-left-links ul li {
-    font-size: 12px;
-  }
-  .footer-left-lower-content-icons {
-    right: 0%;
+  .footer-content-wrapper .left-wrapper .email-field button {
+    right: 20%;
   }
 }
 
@@ -172,30 +168,35 @@
   .container {
     max-width: 768px;
   }
-  .footer-logo img {
-    width: 34px;
-  }
-  .footer-text h1 {
-    font-size: 26px;
-  }
-  .footer-subscribe-field input {
-    width: 280px;
-  }
-  .footer-left-lower-content-icons a img {
-    width: 50px;
-  }
-  .footer-right-upper-content {
-    gap: 40px;
-  }
-  .footer-right-upper-content-left-links ul li a {
-    font-size: 11px;
-  }
   .footer-content-wrapper {
-    padding: 40px 60px;
     gap: 40px;
   }
-  .subscribe-btn-wrapper {
-    left: 55%;
+  /* Left Wrapper */
+  .footer-content-wrapper .left-wrapper .email-field input {
+    width: 240px;
+    height: 40px;
+  }
+  .footer-content-wrapper .left-wrapper .email-field button {
+    width: 75px;
+    height: 36px;
+    right: 24%;
+  }
+  .footer-content-wrapper .left-wrapper h1 {
+    font-size: 20px;
+  }
+  /* Right Wrapper */
+  .footer-content-wrapper .right-wrapper {
+    gap: 80px;
+  }
+  .footer-content-wrapper .right-wrapper .links,
+  .footer-content-wrapper .right-wrapper .middle-and-right-links {
+    gap: 40px;
+  }
+  .footer-content-wrapper .right-wrapper .links p a {
+    font-size: 12px;
+  }
+  .footer-content-wrapper .right-wrapper .email-link h4 {
+    font-size: 16px;
   }
 }
 
@@ -204,23 +205,27 @@
   .container {
     max-width: 640px;
   }
+  .footer {
+    height: 700px;
+  }
   .footer-content-wrapper {
-    padding: 60px 20px;
+    flex-direction: column;
   }
-  .footer-text h1 {
-    font-size: 22px;
+  /* Left Wrapper */
+  .footer-content-wrapper .left-wrapper {
+    align-items: center;
   }
-  .footer-right-upper-content {
-    gap: 20px;
+  .footer-content-wrapper .left-wrapper .email-field input {
+    width: 300px;
+    position: relative;
+    left: 10%;
   }
-  .footer-subscribe-field input {
-    width: 220px;
+  .footer-content-wrapper .left-wrapper .email-field button {
+    right: 10.8%;
   }
-  .subscribe-btn-wrapper button {
-    padding: 10px 4px;
-  }
-  .footer-left-lower-content-icons a img {
-    width: 40px;
+  /* Right Wrapper */
+  .footer-content-wrapper .right-wrapper .social-icons {
+    justify-content: center;
   }
 }
 
@@ -228,29 +233,6 @@
 @media (max-width: 640px) {
   .container {
     max-width: 475px;
-  }
-  .footer-left-lower-content-icons a img {
-    width: 20px;
-  }
-  .footer-content-wrapper {
-    padding: 60px 0px;
-  }
-  .footer-subscribe-field input {
-    width: 220px;
-  }
-  .subscribe-btn-wrapper button {
-    padding: 10px 13px;
-  }
-  .footer-right-upper-content {
-    gap: 0px;
-  }
-  .footer-right-upper-content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .footer-left-lower-content-icons {
-    justify-content: center;
   }
 }
 
@@ -260,28 +242,28 @@
     width: 100%;
   }
   .footer {
-    height: 650px;
+    height: 780px;
   }
-  .footer-left-content,
-  .footer-right-upper-content-email,
-  .footer-content-wrapper,
-  .footer-left-lower-content-icons {
+  /* Left Wrapper */
+  .footer-content-wrapper .left-wrapper .email-field button {
+    right: 14%;
+  }
+  .footer-content-wrapper .left-wrapper .email-field input {
+    width: 220px;
+    left: 12%;
+  }
+  /* Right Wrapper */
+  .footer-content-wrapper .right-wrapper .links {
+    flex-direction: column;
     align-items: center;
   }
-  .footer-content-wrapper,
-  .footer-left-lower-content-icons {
-    justify-content: center;
+  .footer-content-wrapper .right-wrapper .email-link h4 {
+    text-align: center;
   }
-  .footer-content-wrapper {
-    flex-wrap: wrap;
+  .footer-content-wrapper .right-wrapper .social-icons {
+    gap: 20px;
   }
-  .subscribe-btn-wrapper {
-    width: 0;
-  }
-  .subscribe-btn-wrapper {
-    left: 58%;
-  }
-  .subscribe-btn-wrapper button {
-    padding: 10px 13px;
+  .footer-content-wrapper .right-wrapper .social-icons a img {
+    width: 30px;
   }
 }
