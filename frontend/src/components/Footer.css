@@ -48,7 +48,7 @@
 }
 
 .footer-content-wrapper .left-wrapper .email-field button {
-  width: 90px;
+  width: 94px;
   height: 40px;
   background-color: #151515;
   cursor: pointer;
@@ -135,7 +135,7 @@
   }
   .footer-content-wrapper .left-wrapper .email-field button {
     right: 19%;
-    width: 92px;
+    width: 93px;
   }
   /* Right Wrapper */
   .footer-content-wrapper .right-wrapper .links p a {
@@ -160,6 +160,7 @@
   }
   .footer-content-wrapper .left-wrapper .email-field button {
     right: 20%;
+    width: 94px;
   }
 }
 
@@ -222,6 +223,7 @@
   }
   .footer-content-wrapper .left-wrapper .email-field button {
     right: 10.8%;
+    width: 76px;
   }
   /* Right Wrapper */
   .footer-content-wrapper .right-wrapper .social-icons {
@@ -233,6 +235,9 @@
 @media (max-width: 640px) {
   .container {
     max-width: 475px;
+  }
+  .footer-content-wrapper .left-wrapper .email-field button {
+    width: 78px;
   }
 }
 
@@ -247,6 +252,7 @@
   /* Left Wrapper */
   .footer-content-wrapper .left-wrapper .email-field button {
     right: 14%;
+    width: 76px;
   }
   .footer-content-wrapper .left-wrapper .email-field input {
     width: 220px;
