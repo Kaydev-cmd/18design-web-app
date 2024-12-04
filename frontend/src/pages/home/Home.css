@@ -4,12 +4,12 @@
   margin: 32px 0;
 }
 
-.hero .hero-left-wrapper h1 {
+.hero .left-wrapper h1 {
   font-size: 66px;
 }
 
 .hero-wrapper,
-.hero-left-wrapper,
+.hero .left-wrapper,
 .hero-icons {
   display: flex;
 }
@@ -19,12 +19,12 @@
   justify-content: space-between;
 }
 
-.hero-left-wrapper,
+.hero .left-wrapper,
 .hero-icons {
   gap: 20px;
 }
 
-.hero-left-wrapper {
+.hero .left-wrapper {
   flex-direction: column;
   justify-content: space-evenly;
 }
@@ -104,7 +104,7 @@
 }
 
 .how-it-works-wrapper,
-.how-it-works-left-wrapper,
+.how-it-works .left-wrapper,
 .shared-cloud-libraries-wrapper,
 .developer-handoff-wrapper,
 .real-time-collaborative-editing-wrapper,
@@ -124,7 +124,7 @@
   align-items: center;
 }
 
-.how-it-works-left-wrapper,
+.how-it-works .left-wrapper,
 .shared-cloud-libraries-wrapper,
 .developer-handoff-wrapper,
 .real-time-collaborative-editing-wrapper,
@@ -132,7 +132,7 @@
   gap: 20px;
 }
 
-.how-it-works-left-wrapper,
+.how-it-works .left-wrapper,
 .shared-cloud-libraries-wrapper .heading-and-description,
 .developer-handoff-wrapper .heading-and-description,
 .real-time-collaborative-editing-wrapper .heading-and-description,
@@ -144,7 +144,7 @@
   justify-content: space-evenly;
 }
 
-.how-it-works .how-it-works-left-wrapper h1 {
+.how-it-works .left-wrapper h1 {
   font-size: 66px;
 }
 
@@ -189,7 +189,7 @@
   margin-bottom: 60px;
 }
 
-.pricing-wrapper .pricing-right-wrapper h1 {
+.pricing-wrapper .right-wrapper h1 {
   font-size: 66px;
 }
 
@@ -200,7 +200,7 @@
   padding: 8px 10px;
 }
 
-.pricing-wrapper .pricing-right-wrapper p {
+.pricing-wrapper .right-wrapper p {
   text-align: right;
 }
 
@@ -291,7 +291,7 @@
 
   /* Pricing */
 
-  .pricing-wrapper .pricing-right-wrapper h1 {
+  .pricing-wrapper .right-wrapper h1 {
     font-size: 54px;
   }
 }
@@ -304,7 +304,7 @@
 
   /* Hero */
 
-  .hero .hero-left-wrapper h1 {
+  .hero .left-wrapper h1 {
     font-size: 56px;
   }
   .hero-form form input {
@@ -318,7 +318,7 @@
 
   /* How It Works */
 
-  .how-it-works .how-it-works-left-wrapper h1 {
+  .how-it-works .left-wrapper h1 {
     font-size: 56px;
   }
 
@@ -327,7 +327,7 @@
   .pricing-wrapper {
     gap: 50px;
   }
-  .pricing-wrapper .pricing-right-wrapper h1 {
+  .pricing-wrapper .right-wrapper h1 {
     font-size: 48px;
   }
   .pricing .pricing-wrapper img {
@@ -359,20 +359,20 @@
 
   /* Hero */
 
-  .hero-left-wrapper {
+  .hero .left-wrapper {
     gap: 15px;
   }
   .hero .hero-wrapper img {
     width: 400px;
   }
-  .hero-left-wrapper .hero-icons img {
+  .hero .left-wrapper .hero-icons img {
     width: 80px;
     height: 46px;
   }
-  .hero .hero-left-wrapper h1 {
+  .hero .left-wrapper h1 {
     font-size: 48px;
   }
-  .hero .hero-left-wrapper p {
+  .hero .left-wrapper p {
     font-size: 14px;
   }
   .hero-form form input {
@@ -399,34 +399,34 @@
   .how-it-works .how-it-works-wrapper img {
     width: 300px;
   }
-  .how-it-works .how-it-works-left-wrapper h1 {
+  .how-it-works .left-wrapper h1 {
     font-size: 48px;
   }
-  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper img,
-  .how-it-works-left-wrapper .developer-handoff-wrapper img,
-  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper img,
-  .how-it-works-left-wrapper .cloud-api-wrapper img {
+  .how-it-works .left-wrapper .shared-cloud-libraries-wrapper img,
+  .how-it-works .left-wrapper .developer-handoff-wrapper img,
+  .how-it-works .left-wrapper .real-time-collaborative-editing-wrapper img,
+  .how-it-works .left-wrapper .cloud-api-wrapper img {
     width: 70px;
   }
-  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper h4,
-  .how-it-works-left-wrapper .developer-handoff-wrapper h4,
-  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper h4,
-  .how-it-works-left-wrapper .cloud-api-wrapper h4 {
+  .how-it-works .left-wrapper .shared-cloud-libraries-wrapper h4,
+  .how-it-works .left-wrapper .developer-handoff-wrapper h4,
+  .how-it-works .left-wrapper .real-time-collaborative-editing-wrapper h4,
+  .how-it-works .left-wrapper .cloud-api-wrapper h4 {
     font-size: 20px;
   }
-  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper p,
-  .how-it-works-left-wrapper .developer-handoff-wrapper p,
-  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper p,
-  .how-it-works-left-wrapper .cloud-api-wrapper p {
+  .how-it-works .left-wrapper .shared-cloud-libraries-wrapper p,
+  .how-it-works .left-wrapper .developer-handoff-wrapper p,
+  .how-it-works .left-wrapper .real-time-collaborative-editing-wrapper p,
+  .how-it-works .left-wrapper .cloud-api-wrapper p {
     font-size: 14px;
   }
 
   /* Pricing */
 
-  .pricing-wrapper .pricing-right-wrapper h1 {
+  .pricing-wrapper .right-wrapper h1 {
     font-size: 48px;
   }
-  .pricing-wrapper .pricing-right-wrapper h1 p {
+  .pricing-wrapper .right-wrapper h1 p {
     font-size: 14px;
   }
   .pricing .pricing-wrapper img {
@@ -461,10 +461,10 @@
   .hero .hero-wrapper img {
     width: 300px;
   }
-  .hero .hero-left-wrapper h1 {
+  .hero .left-wrapper h1 {
     font-size: 36px;
   }
-  .hero-left-wrapper {
+  .hero .left-wrapper {
     gap: 10px;
   }
   .hero-form form input {
@@ -492,7 +492,7 @@
 
   /* How It Works */
 
-  .how-it-works .how-it-works-left-wrapper h1 {
+  .how-it-works .left-wrapper h1 {
     font-size: 36px;
   }
   .how-it-works .how-it-works-wrapper img {
@@ -502,34 +502,34 @@
     width: 120px;
     padding: 6px 5px;
   }
-  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper h4,
-  .how-it-works-left-wrapper .developer-handoff-wrapper h4,
-  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper h4,
-  .how-it-works-left-wrapper .cloud-api-wrapper h4 {
+  .how-it-works .left-wrapper .shared-cloud-libraries-wrapper h4,
+  .how-it-works .left-wrapper .developer-handoff-wrapper h4,
+  .how-it-works .left-wrapper .real-time-collaborative-editing-wrapper h4,
+  .how-it-works .left-wrapper .cloud-api-wrapper h4 {
     font-size: 18px;
   }
-  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper p,
-  .how-it-works-left-wrapper .developer-handoff-wrapper p,
-  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper p,
-  .how-it-works-left-wrapper .cloud-api-wrapper p {
+  .how-it-works .left-wrapper .shared-cloud-libraries-wrapper p,
+  .how-it-works .left-wrapper .developer-handoff-wrapper p,
+  .how-it-works .left-wrapper .real-time-collaborative-editing-wrapper p,
+  .how-it-works .left-wrapper .cloud-api-wrapper p {
     font-size: 14px;
   }
-  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper img,
-  .how-it-works-left-wrapper .developer-handoff-wrapper img,
-  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper img,
-  .how-it-works-left-wrapper .cloud-api-wrapper img {
+  .how-it-works .left-wrapper .shared-cloud-libraries-wrapper img,
+  .how-it-works .left-wrapper .developer-handoff-wrapper img,
+  .how-it-works .left-wrapper .real-time-collaborative-editing-wrapper img,
+  .how-it-works .left-wrapper .cloud-api-wrapper img {
     width: 70px;
   }
 
   /* Pricing */
 
-  .pricing-wrapper .pricing-right-wrapper h1 {
+  .pricing-wrapper .right-wrapper h1 {
     font-size: 36px;
   }
   .pricing .pricing-wrapper img {
     width: 240px;
   }
-  .pricing-wrapper .pricing-right-wrapper p {
+  .pricing-wrapper .right-wrapper p {
     font-size: 14px;
   }
 }
@@ -545,14 +545,14 @@
   .hero .hero-wrapper img {
     display: none;
   }
-  .hero .hero-left-wrapper h1,
-  .hero .hero-left-wrapper p {
+  .hero .left-wrapper h1,
+  .hero .left-wrapper p {
     text-align: center;
   }
-  .hero .hero-left-wrapper h1 {
+  .hero .left-wrapper h1 {
     font-size: 48px;
   }
-  .hero-left-wrapper {
+  .hero .left-wrapper {
     align-items: center;
     gap: 26px;
   }
@@ -584,10 +584,10 @@
     flex-wrap: wrap;
     gap: 50px;
   }
-  .how-it-works-wrapper .how-it-works-left-wrapper {
+  .how-it-works-wrapper .left-wrapper {
     align-items: center;
   }
-  .how-it-works-wrapper .how-it-works-left-wrapper h1 {
+  .how-it-works-wrapper .left-wrapper h1 {
     font-size: 48px;
     text-align: center;
   }
@@ -599,14 +599,14 @@
     flex-direction: column-reverse;
     margin-bottom: 40px;
   }
-  .pricing-wrapper .pricing-right-wrapper h1 {
+  .pricing-wrapper .right-wrapper h1 {
     font-size: 48px;
   }
-  .pricing-wrapper .pricing-right-wrapper h1,
-  .pricing-wrapper .pricing-right-wrapper p {
+  .pricing-wrapper .right-wrapper h1,
+  .pricing-wrapper .right-wrapper p {
     text-align: center;
   }
-  .pricing-right-wrapper {
+  .pricing .right-wrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -631,13 +631,13 @@
   }
 
   /* Hero */
-  .hero .hero-left-wrapper h1 {
+  .hero .left-wrapper h1 {
     font-size: 28px;
   }
   .hero-wrapper {
     justify-content: center;
   }
-  .hero-left-wrapper {
+  .hero .left-wrapper {
     align-items: center;
     gap: 16px;
   }
@@ -658,33 +658,33 @@
     width: 120px;
     padding: 6px 5px;
   }
-  .how-it-works .how-it-works-left-wrapper h1 {
+  .how-it-works .left-wrapper h1 {
     font-size: 28px;
   }
-  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper h4,
-  .how-it-works-left-wrapper .developer-handoff-wrapper h4,
-  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper h4,
-  .how-it-works-left-wrapper .cloud-api-wrapper h4 {
+  .how-it-works .left-wrapper .shared-cloud-libraries-wrapper h4,
+  .how-it-works .left-wrapper .developer-handoff-wrapper h4,
+  .how-it-works .left-wrapper .real-time-collaborative-editing-wrapper h4,
+  .how-it-works .left-wrapper .cloud-api-wrapper h4 {
     font-size: 16px;
   }
-  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper p,
-  .how-it-works-left-wrapper .developer-handoff-wrapper p,
-  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper p,
-  .how-it-works-left-wrapper .cloud-api-wrapper p {
+  .how-it-works .left-wrapper .shared-cloud-libraries-wrapper p,
+  .how-it-works .left-wrapper .developer-handoff-wrapper p,
+  .how-it-works .left-wrapper .real-time-collaborative-editing-wrapper p,
+  .how-it-works .left-wrapper .cloud-api-wrapper p {
     font-size: 12px;
   }
   .how-it-works .how-it-works-wrapper img {
     width: 280px;
   }
-  .how-it-works-left-wrapper .shared-cloud-libraries-wrapper img,
-  .how-it-works-left-wrapper .developer-handoff-wrapper img,
-  .how-it-works-left-wrapper .real-time-collaborative-editing-wrapper img,
-  .how-it-works-left-wrapper .cloud-api-wrapper img {
+  .how-it-works .left-wrapper .shared-cloud-libraries-wrapper img,
+  .how-it-works .left-wrapper .developer-handoff-wrapper img,
+  .how-it-works .left-wrapper .real-time-collaborative-editing-wrapper img,
+  .how-it-works .left-wrapper .cloud-api-wrapper img {
     width: 70px;
   }
   /* Pricing */
 
-  .pricing-wrapper .pricing-right-wrapper h1 {
+  .pricing-wrapper .right-wrapper h1 {
     font-size: 28px;
   }
 
