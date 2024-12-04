@@ -1,4 +1,3 @@
-// Add paths to deadlinks
 // Make navbar sticky
 
 import React, { useState } from "react";
@@ -15,56 +14,47 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <div className="container">
-          {/* Navbar */}
-          <div className="navbar-wrapper">
+          <div className="wrapper">
             <a href="/">
               <img src="/images/home/LogoBlack.png" alt="Black Logo" />
             </a>
-
-            {/* Links */}
             <nav className="navbar-links" hidden>
               <ul>
                 <li>
-                  <a href="">About Us</a>
+                  <a href="#about-us">About Us</a>
                 </li>
                 <li>
-                  <a href="">How it works</a>
+                  <a href="#how-it-works">How it works</a>
                 </li>
                 <li>
-                  <a href="">Pricing</a>
+                  <a href="#pricing">Pricing</a>
                 </li>
                 <li>
-                  <a href="">FAQs</a>
+                  <a href="#faqs">FAQs</a>
                 </li>
               </ul>
             </nav>
-
-            {/* Mobile Menu */}
             <nav className={!nav ? "mobile-navbar-links" : "navbar-links"}>
               <ul>
                 <li>
-                  <a href="">About Us</a>
+                  <a href="#about-us">About Us</a>
                 </li>
                 <li>
-                  <a href="">How it works</a>
+                  <a href="#how-it-works">How it works</a>
                 </li>
                 <li>
-                  <a href="">Pricing</a>
+                  <a href="#pricing">Pricing</a>
                 </li>
                 <li>
-                  <a href="">FAQs</a>
+                  <a href="#faqs">FAQs</a>
                 </li>
               </ul>
             </nav>
-
-            {/* Buttons */}
             <div className="navbar-btns">
               <button className="login-btn">Login</button>
               <button className="sign-up-btn">Sign Up</button>
             </div>
-
-            {/* Menu */}
-            <Menu className="menu" size={20} onClick={handleNav} />
+            <Menu className="menu" size={30} onClick={handleNav} />
           </div>
         </div>
       </div>

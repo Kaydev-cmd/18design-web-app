@@ -2,13 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-/* .about-us,
-.how-it-works,
-.pricing,
-.faqs {
-    margin-bottom: 80px;
-} */
-
 body {
   background-color: #e2e2e2;
 }
@@ -16,7 +9,7 @@ body {
 /* Hero */
 
 .hero {
-  margin: 20px 0;
+  margin: 32px 0;
 }
 
 .hero .hero-left-wrapper h1 {
@@ -69,7 +62,7 @@ body {
 /* About Us */
 
 .about-us {
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .about-us .about-us-right-wrapper h1 {
@@ -113,7 +106,7 @@ body {
 /* Real Time Collaborative Editing */
 
 .how-it-works {
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .how-it-works-wrapper,
@@ -181,7 +174,7 @@ body {
 
 .pricing {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .pricing-wrapper .pricing-btn {
@@ -322,7 +315,7 @@ body {
 /* FAQs */
 
 .faqs {
-  margin-top: 50px;
+  margin-top: 32px;
 }
 
 .faqs-wrapper,
