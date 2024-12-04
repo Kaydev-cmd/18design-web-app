@@ -2,11 +2,6 @@ import React from "react";
 import "./Home.css";
 import PricingCards from "../../components/PricingCards";
 
-// Ticket #4: Check button transitions for buttons throughout the project!!
-// Ticket #5: Change the bullet points for the pricing cards to squares!!
-// Ticket #6: Check font families for the text throughout the project!!
-// Ticket #7: Change the bullet points for the about us section to squares!!
-
 const Home = () => {
   return (
     <>
@@ -49,7 +44,7 @@ const Home = () => {
 
       {/* About Us Section */}
 
-      <section className="about-us">
+      <section className="about-us" id="about-us">
         <div className="container">
           <div className="about-us-wrapper">
             <img src="/images/home/Illustration_2.png" alt="About us banner" />
@@ -85,7 +80,7 @@ const Home = () => {
       </section>
 
       {/* How It Works */}
-      <section className="how-it-works">
+      <section className="how-it-works" id="how-it-works">
         <div className="container">
           <div className="how-it-works-wrapper">
             <div className="how-it-works-left-wrapper">
@@ -175,7 +170,7 @@ const Home = () => {
       </section>
 
       {/* Pricing */}
-      <section className="pricing">
+      <section className="pricing" id="pricing">
         <div className="container">
           <div className="pricing-wrapper">
             <img src="/images/home/Illustration_4.png" alt="Pricing banner" />
@@ -199,7 +194,7 @@ const Home = () => {
 
       {/* FAQs */}
 
-      <section className="faqs">
+      <section className="faqs" id="faqs">
         <div className="container">
           <div className="faqs-wrapper">
             <div className="faqs-left-wrapper">
