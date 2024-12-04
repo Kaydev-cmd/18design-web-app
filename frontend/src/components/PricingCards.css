@@ -1,0 +1,201 @@
+/* Pricing Cards */
+
+.pricing-cards-wrapper,
+.pricing-card,
+.pricing-card.black,
+.pricing-card .amount-and-plan h5,
+.pricing-card.black .amount-and-plan h5 {
+  display: flex;
+}
+
+.pricing-card .amount-and-plan h5 p,
+.pricing-card.black .amount-and-plan h5 p,
+.pricing-card.white button,
+.pricing-card.white.first-card p,
+.pricing-card.white.first-card .amount-and-plan,
+.pricing-card.white.first-card .card-list {
+  position: relative;
+}
+
+.pricing-card.white.first-card p,
+.pricing-card.white.first-card .amount-and-plan,
+.pricing-card.white.first-card .card-list {
+  bottom: 30px;
+}
+
+.pricing-card.black .amount-and-plan h5,
+.pricing-card.black .amount-and-plan h5 span,
+.pricing-card.black .card-list ul li,
+.pricing-card.black p,
+.pricing-card button {
+  color: #fff;
+}
+
+.pricing-card.black,
+.pricing-card button {
+  background-color: #000;
+}
+
+.pricing-cards-wrapper {
+  justify-content: space-around;
+  gap: 8px;
+}
+
+.pricing-card,
+.pricing-card.black {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border: 2px solid black;
+  width: 400px;
+  height: 500px;
+}
+
+.pricing-card .amount-and-plan h5,
+.pricing-card.black .amount-and-plan h5 {
+  gap: 4px;
+}
+
+.pricing-card .amount-and-plan h5 span,
+.pricing-card.black .amount-and-plan h5 span {
+  font-size: 22px;
+}
+
+.pricing-card .amount-and-plan h5 h6,
+.pricing-card.black .amount-and-plan h5 h6 {
+  font-size: 60px;
+}
+
+.pricing-card .amount-and-plan h5 p,
+.pricing-card.black .amount-and-plan h5 p {
+  top: 40px;
+}
+
+.pricing-card .card-list ul li,
+.pricing-card.black .card-list ul li {
+  margin: 14px;
+  list-style-type: square;
+}
+
+.pricing-card.black button {
+  background-color: #fff;
+  color: #000;
+}
+
+.pricing-card.white button {
+  top: 30px;
+}
+
+.pricing-card.white.last-card button {
+  top: 6px;
+}
+
+.pricing-card button,
+.pricing-card.black button {
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+/* Media Queries */
+
+/* 2xl */
+@media (max-width: 1536px) {
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .pricing-card,
+  .pricing-card.black {
+    width: 320px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .pricing-card,
+  .pricing-card.black {
+    width: 240px;
+    height: 600px;
+    padding: 24px;
+  }
+  .pricing-card.white.first-card p,
+  .pricing-card.black p,
+  .pricing-card.white.last-card p {
+    font-size: 14px;
+  }
+  .pricing-card.black button,
+  .pricing-card.white.first-card p,
+  .pricing-card.white.first-card .amount-and-plan,
+  .pricing-card.white.first-card .card-list {
+    position: relative;
+  }
+  .pricing-card.white.first-card p,
+  .pricing-card.white.first-card .amount-and-plan,
+  .pricing-card.white.first-card .card-list {
+    bottom: 50px;
+  }
+  .pricing-card .amount-and-plan h5 h6,
+  .pricing-card.black .amount-and-plan h5 h6 {
+    font-size: 38px;
+  }
+  .pricing-card .amount-and-plan h5 p,
+  .pricing-card.black .amount-and-plan h5 p {
+    font-size: 12px;
+    top: 26px;
+  }
+  .pricing-card.white.first-card button {
+    top: 54px;
+  }
+  .pricing-card.black button {
+    top: 8px;
+  }
+  .pricing-card.white.last-card button {
+    top: 0px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .pricing-cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .pricing-card,
+  .pricing-card.black {
+    width: 340px;
+    height: 500px;
+  }
+  .pricing-card.white.first-card p,
+  .pricing-card.black p,
+  .pricing-card.white.last-card p,
+  .pricing-card .amount-and-plan h5 p,
+  .pricing-card.black .amount-and-plan h5 p {
+    font-size: 16px;
+  }
+  .pricing-card .amount-and-plan h5 h6,
+  .pricing-card.black .amount-and-plan h5 h6 {
+    font-size: 48px;
+  }
+  .pricing-card .amount-and-plan h5 p,
+  .pricing-card.black .amount-and-plan h5 p {
+    top: 26px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .pricing-card,
+  .pricing-card.black {
+    width: 300px;
+    height: 500px;
+  }
+}
