@@ -6,9 +6,9 @@ const Footer = () => {
     <>
       <div className="footer">
         <div className="container">
-          <div className="footer-content-wrapper">
+          <div className="content">
             <div className="left-wrapper">
-              <a href="">
+              <a href="/">
                 <img
                   src="/images/home/LogoWhite.png"
                   alt="Logo White"
@@ -32,59 +32,59 @@ const Footer = () => {
                 <div className="email-link">
                   <h4>Email</h4>
                   <p>
-                    <a href="">info@the18.design</a>
+                    <a href="#">info@the18.design</a>
                   </p>
                 </div>
 
                 <div className="middle-and-right-links">
                   <div className="middle-links">
                     <p>
-                      <a href="">About Us</a>
+                      <a href="#about-us">About Us</a>
                     </p>
                     <p>
-                      <a href="">How it works</a>
+                      <a href="#how-it-works">How it works</a>
                     </p>
                     <p>
-                      <a href="">Pricing</a>
+                      <a href="#pricing">Pricing</a>
                     </p>
                     <p>
-                      <a href="">FAQs</a>
+                      <a href="#faqs">FAQs</a>
                     </p>
                   </div>
 
                   <div className="right-links">
                     <p>
-                      <a href="">Lead generation</a>
+                      <a href="#">Lead generation</a>
                     </p>
                     <p>
-                      <a href="">Customer engagement</a>
+                      <a href="#">Customer engagement</a>
                     </p>
                     <p>
-                      <a href="">Customer support</a>
+                      <a href="#">Customer support</a>
                     </p>
                     <p>
-                      <a href="">Help Center Articles</a>
+                      <a href="#">Help Center Articles</a>
                     </p>
                     <p>
-                      <a href="">Outbound Messages</a>
+                      <a href="#">Outbound Messages</a>
                     </p>
                   </div>
                 </div>
               </div>
               <div className="social-icons">
-                <a href="">
+                <a href="#">
                   <img src="/images/home/social_fb.png" alt="Facebook" />
                 </a>
-                <a href="">
+                <a href="#">
                   <img src="/images/home/social_tw.png" alt="Twitter" />
                 </a>
-                <a href="">
+                <a href="#">
                   <img src="/images/home/social_gl.png" alt="Google" />
                 </a>
-                <a href="">
+                <a href="#">
                   <img src="/images/home/social_in.png" alt="LinkedIn" />
                 </a>
-                <a href="">
+                <a href="#">
                   <img src="/images/home/social_yt.png" alt="Youtube" />
                 </a>
               </div>
