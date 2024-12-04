@@ -1,7 +1,6 @@
 // import React from "react";
 import "./Home.css";
 
-// Ticket #2: Check the margin spacing between the sections throughout the project!!
 // Ticket #3: Handle the responsiveness for the pricing and common section and the footer!!
 // Ticket #4: Check button transitions for buttons throughout the project!!
 // Ticket #5: Change the bullet points for the pricing cards to squares!!

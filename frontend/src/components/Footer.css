@@ -236,8 +236,17 @@
   .container {
     max-width: 475px;
   }
+  .footer {
+    height: 960px;
+  }
   .footer-content-wrapper .left-wrapper .email-field button {
     width: 78px;
+  }
+  .footer-content-wrapper .right-wrapper .links,
+  .footer-content-wrapper .right-wrapper .middle-and-right-links {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
 
@@ -245,9 +254,6 @@
 @media (max-width: 475px) {
   .container {
     width: 100%;
-  }
-  .footer {
-    height: 780px;
   }
   /* Left Wrapper */
   .footer-content-wrapper .left-wrapper .email-field button {
