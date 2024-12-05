@@ -10,7 +10,7 @@ const Home = () => {
       <section className="hero">
         <div className="container">
           <div className="hero-wrapper">
-            <div className="hero-left-wrapper">
+            <div className="left-wrapper">
               <h1>
                 Always Track &#38;
                 <br />
@@ -83,7 +83,7 @@ const Home = () => {
       <section className="how-it-works" id="how-it-works">
         <div className="container">
           <div className="how-it-works-wrapper">
-            <div className="how-it-works-left-wrapper">
+            <div className="left-wrapper">
               <button className="how-it-works-btn">How It Works</button>
               <h1>
                 Building the best space
@@ -158,8 +158,6 @@ const Home = () => {
                 </div>
               </div>
             </div>
-
-            {/* How it works banner */}
             <img
               src="/images/home/Illustration_3.png"
               alt="How It Works banner"
@@ -174,7 +172,7 @@ const Home = () => {
         <div className="container">
           <div className="pricing-wrapper">
             <img src="/images/home/Illustration_4.png" alt="Pricing banner" />
-            <div className="pricing-right-wrapper">
+            <div className="right-wrapper">
               <button className="pricing-btn">Pricing</button>
               <h1>
                 Select a membership level
